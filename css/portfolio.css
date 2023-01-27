@@ -27,3 +27,47 @@ body {
 .logo {
   width: 200px;
 }
+/* Positioning of the hamburger Menu */
+.nav-menu {
+  max-width: 75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.hamburger-menu {
+  width: 3rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.three-bars {
+  width: 2.5rem;
+  height: 4px;
+  border-radius: 3px;
+  background: rgb(107, 9, 118);
+  transition: 0.5s;
+  position: relative;
+}
+
+.three-bars::before,
+.three-bars::after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: rgb(107, 9, 118);
+  transition: 0.5s;
+}
+
+.three-bars::before {
+  transform: translateY(-10px);
+}
+
+.three-bars::after {
+  transform: translateY(10px);
+}
