@@ -11,7 +11,7 @@
 body {
   font-family: "Antonio", sans-serif;
   font-weight: 500;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .page-container {
