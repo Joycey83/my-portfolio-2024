@@ -153,7 +153,7 @@ header {
 }
 
 .page-container.active .bg-image-inner-container {
-  animation: main-animation 0.5s ease;
+  animation: main-animation 0.6s ease;
   cursor: pointer;
   transform: perspective(1300px) rotateY(20deg) translateY(10px)
     translateZ(310px) scale(0.5);
@@ -203,18 +203,18 @@ ul {
   animation: hide 0.5s forwards ease;
 }
 
-.links a:hover {
-  color: #e20f2f;
+.navigation-links a:hover {
+  color: purple;
 }
 
 .page-container.active .navigation-links a {
-  animation: appear 0.5s forwards ease var(--times);
+  animation: appear 0.4s forwards ease var(--times);
 }
 
 @keyframes appear {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -229,6 +229,6 @@ ul {
   }
   to {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(50px);
   }
 }
