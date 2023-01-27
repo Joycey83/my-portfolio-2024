@@ -245,12 +245,24 @@ ul {
   }
   header {
     position: relative;
-    top: -50px;
+    top: -5px;
   }
 }
 
-@media (max-width: 320px) {
-  header {
-    margin-top: 20px;
+@media (max-width: 420px) {
+  .navigation-links a {
+    position: relative;
+    bottom: -275px;
   }
 }
+@media (max-width: 375px) {
+  .navigation-links a {
+    position: relative;
+    bottom: -300px;
+  }
+  header {
+    position: relative;
+    top: 0;
+  }
+}
+/* Media queries for 360px 375px */
