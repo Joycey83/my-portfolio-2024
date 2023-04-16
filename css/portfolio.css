@@ -29,6 +29,7 @@ body {
 } */
 .name-title {
   font-size: 60px;
+  font-weight: 700;
   line-height: 1.2;
   letter-spacing: var(--letter-spacing);
 }
@@ -244,5 +245,10 @@ ul {
 .typed-text {
   color: #663399;
   font-size: 40px;
+  letter-spacing: var(--letter-spacing);
+}
+
+.job-title {
+  font-size: 30px;
   letter-spacing: var(--letter-spacing);
 }
