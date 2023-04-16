@@ -1,5 +1,6 @@
 :root {
   --times: 0.05s;
+  --letter-spacing: 2px;
 }
 
 * {
@@ -26,6 +27,11 @@ body {
 /* .nav-section {
   padding: 20px;
 } */
+.name-title {
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+}
 
 .logo {
   width: 150px;
@@ -234,3 +240,9 @@ ul {
 }
 
 /* Typed Text effect */
+
+.typed-text {
+  color: #663399;
+  font-size: 40px;
+  letter-spacing: var(--letter-spacing);
+}
