@@ -10,7 +10,7 @@ hamburgerMenu.addEventListener("click", () => {
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Artistic", "Creative", "Frontend Developer"];
+const textArray = ["Artistic and Creative Frontend Developer"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text
