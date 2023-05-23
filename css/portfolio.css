@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Antonio", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   overflow: hidden;
 }
@@ -28,6 +28,7 @@ body {
   padding: 20px;
 } */
 .name-title {
+  font-family: "Righteous", cursive;
   font-size: 60px;
   font-weight: 700;
   line-height: 1.2;
