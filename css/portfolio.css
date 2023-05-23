@@ -252,3 +252,20 @@ ul {
   font-size: 30px;
   letter-spacing: var(--letter-spacing);
 }
+/* 
+============
+Social Links
+============
+ */
+
+.social-link {
+  font-size: 2rem;
+  position: relative;
+  top: 200px;
+}
+
+.social-icon {
+  color: #663399;
+  text-decoration: none;
+  padding: 0.5rem;
+}
