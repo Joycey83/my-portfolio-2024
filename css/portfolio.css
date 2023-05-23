@@ -291,6 +291,11 @@ nav a {
   background: #000;
 }
 
+.about-navigation--links a {
+  color: #522d80;
+  font-size: 1.2rem;
+}
+
 /* 
 ============
 Social Links
