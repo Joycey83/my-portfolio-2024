@@ -252,6 +252,34 @@ ul {
   font-size: 30px;
   letter-spacing: var(--letter-spacing);
 }
+
+/* 
+============
+About Me
+============
+ */
+
+nav {
+  padding: 20px 0;
+}
+.my-logo {
+  max-height: 40px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
 /* 
 ============
 Social Links
