@@ -137,6 +137,7 @@ header {
 }
 
 .generic-btn {
+  font-size: 1.5rem;
   display: inline;
   padding: 15px;
   color: whitesmoke;
@@ -307,10 +308,15 @@ Social Links
   font-size: 2rem;
   position: relative;
   top: 200px;
+  left: 500px;
 }
 
 .social-icon {
   color: #663399;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.social-icon:hover {
+  color: #8b008b;
 }
