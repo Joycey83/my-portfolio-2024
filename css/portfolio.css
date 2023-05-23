@@ -279,10 +279,19 @@ nav ul {
   margin: 0;
 }
 
-nav li {
+nav .nav-link {
   display: inline;
   line-height: 40px;
   margin-left: 20px;
+}
+
+.nav-link a:hover {
+  font-size: 1.6rem;
+  border-bottom: 2px solid #fff;
+}
+
+.nav-link.active a {
+  color: #adff2f;
 }
 
 nav a {
@@ -295,6 +304,7 @@ nav a {
 
 .about-navigation--links a {
   color: #522d80;
+  padding: 0 0.5rem;
   font-size: 1.2rem;
 }
 
