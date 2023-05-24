@@ -9,10 +9,10 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+html {
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .page-container {
@@ -264,6 +264,21 @@ ul {
 
 /* 
 ============
+Section
+============
+ */
+.section {
+  padding: 4rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+/* 
+============
 About Me
 ============
  */
@@ -286,7 +301,6 @@ nav .nav-link {
 }
 
 .nav-link a:hover {
-  font-size: 1.6rem;
   border-bottom: 2px solid #fff;
 }
 
@@ -306,6 +320,14 @@ nav a {
   color: #522d80;
   padding: 0 0.5rem;
   font-size: 1.2rem;
+}
+
+.about--container {
+  margin: 8rem 3rem;
+}
+
+.profile--img {
+  width: 100%;
 }
 
 /* 
