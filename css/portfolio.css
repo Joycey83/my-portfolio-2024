@@ -321,13 +321,19 @@ nav a {
   padding: 0 0.5rem;
   font-size: 1.2rem;
 }
+.about-me--container {
+  padding: 80px 50px;
+}
+.about-section-content {
+  margin: 30px;
+}
 
-.about--container {
-  margin: 8rem 3rem;
+.about--img-container {
+  position: relative;
 }
 
 .profile--img {
-  width: 100%;
+  position: relative;
 }
 
 /* 
