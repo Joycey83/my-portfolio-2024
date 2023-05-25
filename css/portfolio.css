@@ -383,6 +383,55 @@ nav a {
   border-radius: 10px;
 }
 
+.resume-btn {
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 2rem;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #adff2f;
+  position: relative;
+  left: 3rem;
+}
+
+.resume-btn:hover {
+  border: 2px solid #a020f0;
+}
+
+.resume-text {
+  position: relative;
+  right: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.project-btn {
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 2rem;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #adff2f;
+  position: relative;
+  bottom: 6.2rem;
+  left: 12rem;
+}
+
+.project-btn:hover {
+  border: 2px solid #a020f0;
+}
+
+.project-text {
+  position: relative;
+  right: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 /* 
 ==============
 Skills & Tech
