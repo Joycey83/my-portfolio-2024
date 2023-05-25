@@ -394,8 +394,25 @@ Skills & Tech
   color: #adff2f;
 }
 
+.skill-tech::after {
+  content: "";
+  width: 15%;
+  border: 2px solid #663399;
+  border-radius: 5px;
+  position: relative;
+  left: 3rem;
+  display: block;
+  margin-top: 0.2rem;
+}
+
 .skill--container {
   display: flex;
+}
+
+.skill--container p {
+  font-size: 1.2rem;
+  color: #522d80;
+  margin-top: 0.5rem;
 }
 
 .skill--icon {
