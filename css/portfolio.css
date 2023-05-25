@@ -28,7 +28,9 @@ html {
   padding: 20px;
 } */
 .name-title {
-  font-size: 60px;
+  font-family: "Rubik", sans-serif;
+  font-size: 70px;
+  text-transform: uppercase;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: var(--letter-spacing);
@@ -313,6 +315,23 @@ nav a {
 
 .about-bg {
   background: #000;
+}
+
+.about-heading {
+  color: #adff2f;
+  font-size: 2.3rem;
+  text-align: center;
+  letter-spacing: var(--letter-spacing);
+}
+
+.about-heading::after {
+  content: "";
+  width: 15%;
+  border: 2px solid #663399;
+  border-radius: 5px;
+  position: relative;
+  display: block;
+  margin: 5px auto;
 }
 
 .about-navigation--links a {
