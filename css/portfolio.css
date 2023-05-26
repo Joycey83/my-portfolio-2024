@@ -443,9 +443,11 @@ Skills & Tech
 ==============
  */
 
-.skill-tech {
+.skill-tech,
+.certificates {
   font-size: 2.4rem;
   color: #adff2f;
+  letter-spacing: var(--letter-spacing);
 }
 
 .skill-tech::after {
@@ -454,7 +456,7 @@ Skills & Tech
   border: 2px solid #663399;
   border-radius: 5px;
   position: relative;
-  left: 3rem;
+  left: 4.2rem;
   display: block;
   margin-top: 0.2rem;
 }
@@ -473,6 +475,24 @@ Skills & Tech
   font-size: 4.5rem;
   /* color: #e5e4e2; */
   color: #a8a9ad;
+}
+
+/* 
+=============
+Certificates
+=============
+
+*/
+
+.certificates::after {
+  content: "";
+  width: 8%;
+  border: 2px solid #663399;
+  border-radius: 5px;
+  display: block;
+  position: relative;
+  left: 2.2rem;
+  margin-top: 0.2rem;
 }
 
 /* 
