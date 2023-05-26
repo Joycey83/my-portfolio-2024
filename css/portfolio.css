@@ -461,10 +461,6 @@ Skills & Tech
   margin-top: 0.2rem;
 }
 
-.skill--container {
-  display: flex;
-}
-
 .skill--container p {
   font-size: 1.2rem;
   color: #522d80;
