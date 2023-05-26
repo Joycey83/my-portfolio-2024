@@ -479,6 +479,10 @@ Certificates
 =============
 
 */
+.certificate--container {
+  border: 2px dotted #663399;
+  padding: 2.4rem;
+}
 
 .certificates::after {
   content: "";
