@@ -499,6 +499,12 @@ Certificates
   border-image: url(/images/polaroid-border.png) 300;
 }
 
+.border--img:hover {
+  transform: scale(1.1);
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+
 /* 
 ============
 Social Links
