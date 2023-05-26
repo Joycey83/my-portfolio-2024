@@ -36,6 +36,13 @@ html {
   letter-spacing: var(--letter-spacing);
 }
 
+.name-sub {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .logo {
   width: 150px;
   padding: 15px;
@@ -396,10 +403,6 @@ nav a {
   left: 3rem;
 }
 
-.resume-btn:hover {
-  border: 2px solid #a020f0;
-}
-
 .resume-text {
   position: relative;
   right: 15px;
@@ -421,8 +424,10 @@ nav a {
   left: 12rem;
 }
 
-.project-btn:hover {
+.project-btn:hover,
+.resume-btn:hover {
   border: 2px solid #a020f0;
+  transform: scale(1.2);
 }
 
 .project-text {
