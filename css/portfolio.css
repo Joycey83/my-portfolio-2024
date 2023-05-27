@@ -547,6 +547,19 @@ Certificates
   right: 20px;
 }
 
+.tech-icons {
+  color: #8b008b;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.tech-icons i {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
 /* 
 ============
 Social Links
