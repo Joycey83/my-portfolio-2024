@@ -556,7 +556,6 @@ Certificates
 }
 
 .tech-icons-1 {
-  color: #8b008b;
   display: flex;
   position: relative;
   top: 30px;
@@ -566,6 +565,28 @@ Certificates
 .tech-icons-1 i {
   font-size: 25px;
   margin-left: 10px;
+}
+
+.tech-icons-2 {
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 65px;
+}
+
+.tech-icons-2 i {
+  margin-left: 5px;
+}
+
+.tech-icons-3 {
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 62px;
+}
+
+.tech-icons-3 i {
+  margin-left: 5px;
 }
 
 .tech-icons i {
