@@ -555,8 +555,25 @@ Certificates
   left: 50px;
 }
 
+.tech-icons-1 {
+  color: #8b008b;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+
+.tech-icons-1 i {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
 .tech-icons i {
   font-size: 25px;
+  margin-left: 10px;
+}
+
+.api--icon {
   margin-left: 10px;
 }
 
