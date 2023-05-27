@@ -505,6 +505,7 @@ Certificates
 
 .certificate--outer-img:hover img {
   opacity: 0.2;
+  cursor: pointer;
 }
 
 .certificate--outer-img:hover .view-btn {
