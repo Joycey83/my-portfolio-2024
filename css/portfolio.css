@@ -448,15 +448,16 @@ Skills & Tech
   font-size: 2.4rem;
   color: #adff2f;
   letter-spacing: var(--letter-spacing);
+  text-transform: uppercase;
 }
 
 .skill-tech::after {
   content: "";
-  width: 15%;
+  width: 5%;
   border: 2px solid #663399;
   border-radius: 5px;
   position: relative;
-  left: 4.2rem;
+  left: 7.9rem;
   display: block;
   margin-top: 0.2rem;
 }
@@ -490,7 +491,7 @@ Certificates
   border-radius: 5px;
   display: block;
   position: relative;
-  left: 2.2rem;
+  left: 3.3rem;
   margin-top: 0.2rem;
 }
 
