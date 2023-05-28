@@ -606,20 +606,44 @@ Social Links
  */
 
 .social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2rem;
   position: relative;
   top: 200px;
   left: 500px;
 }
 
-.social-icon {
+.social--icon {
   color: #663399;
   text-decoration: none;
-  padding: 0 0.5rem;
+  line-height: 1.5;
+  display: block;
+  border: 2px solid #a020f0;
+  width: 10px;
+  height: 60px;
+  border-radius: 100px;
+  transform: scale(0.5, 0.5);
+  overflow: hidden;
+  padding: 30px;
+  margin-left: -15px;
 }
 
-.social-icon:hover {
-  color: #8b008b;
+.social--icon i {
+  position: relative;
+  bottom: 26px;
+  right: 15px;
+}
+
+.cv--icon {
+  position: relative;
+  bottom: 25px;
+  right: 15px;
+}
+
+.social--icon:hover {
+  color: #adff2f;
 }
 
 /* 
@@ -654,8 +678,16 @@ Footer
 .resume-icon {
   font-size: 30px;
   position: relative;
-  bottom: 35px;
+  bottom: 33px;
   right: 40px;
+}
+
+.resume-highlight:hover {
+  color: #adff2f;
+}
+
+.footer-icons a {
+  text-decoration: none;
 }
 
 /* Pulse effect CSS Styles */
