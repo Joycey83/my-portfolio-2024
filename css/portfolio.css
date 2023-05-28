@@ -631,7 +631,62 @@ Footer
 .footer--container {
   display: flex;
   justify-content: center;
-  padding: 1rem 2rem;
+  padding: 1.2rem 1.2rem;
+}
+
+.footer-icons {
+  margin-left: -20px;
+}
+.social-icon {
+  font-size: 40px;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+
+.social-icon i {
+  position: relative;
+  bottom: 32px;
+  right: 17px;
+}
+
+.resume-icon {
+  font-size: 30px;
+  position: relative;
+  bottom: 35px;
+  right: 40px;
 }
 
 /* Pulse effect CSS Styles */
+
+.pulse-btn {
+  color: #a020f0;
+  cursor: pointer;
+  line-height: 1.5;
+  display: block;
+  border: 2px solid #a020f0;
+  width: 10px;
+  height: 60px;
+  border-radius: 100px;
+  transform: scale(0.5, 0.5);
+  overflow: hidden;
+  padding: 52px;
+  position: relative;
+}
+
+.pulse-btn:hover {
+  -webkit-animation: pulse 0.5s;
+  animation: pulse 0.5s;
+  box-shadow: 0 0 0 2em transparent;
+}
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #adff2f;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #adff2f;
+  }
+}
