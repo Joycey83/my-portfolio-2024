@@ -449,6 +449,7 @@ Skills & Tech
   color: #adff2f;
   letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
+  text-align: center;
 }
 
 .skill-tech::after {
@@ -457,9 +458,9 @@ Skills & Tech
   border: 2px solid #663399;
   border-radius: 5px;
   position: relative;
-  left: 7.9rem;
+  /* left: 7.9rem; */
   display: block;
-  margin-top: 0.2rem;
+  margin: 0.2rem auto;
 }
 
 .skill--container p {
@@ -491,7 +492,8 @@ Certificates
   border-radius: 5px;
   display: block;
   position: relative;
-  left: 3.3rem;
+  margin: auto;
+  /* left: 3.3rem; */
   margin-top: 0.2rem;
 }
 
@@ -605,15 +607,29 @@ PROJECTS
 */
 
 .responsive--container {
-  background-color: #3b353584;
   border-radius: 8px;
   padding: 1rem;
 }
 
 .responsive--img {
+  border: 2px solid #adff2f;
   border-radius: 10px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.project--heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #adff2f;
+  letter-spacing: 2px;
+}
+
+.project--heading::after {
+  content: "";
+  width: 16%;
+  border: 2px solid #663399;
+  border-radius: 5px;
+  display: block;
+  margin: 0.3rem auto;
 }
 
 /* 
