@@ -24,16 +24,6 @@ ul {
   list-style: none;
 }
 
-.
-
-
-
-/* 
-============
-Section
-============
-*/
-
 .section {
   padding: 3rem 0;
 }
@@ -51,10 +41,10 @@ Section
 }
 
 /* 
-============
-About Me
-============
- */
+  ============
+  About Me
+  ============
+   */
 
 nav {
   padding: 20px 0;
@@ -197,10 +187,10 @@ nav a {
 }
 
 /* 
-==============
-Skills & Tech
-==============
- */
+  ==============
+  Skills & Tech
+  ==============
+   */
 
 .skill-tech,
 .certificates {
@@ -235,11 +225,11 @@ Skills & Tech
 }
 
 /* 
-=============
-Certificates
-=============
-
-*/
+  =============
+  Certificates
+  =============
+  
+  */
 .certificate--container {
   padding: 2.4rem;
 }
@@ -360,10 +350,10 @@ Certificates
   margin-left: 10px;
 }
 /* 
-===============
-PROJECTS
-===============
-*/
+  ===============
+  PROJECTS
+  ===============
+  */
 
 .responsive--container {
   border-radius: 8px;
@@ -393,10 +383,10 @@ PROJECTS
 }
 
 /* 
-============
-Social Links
-============
- */
+  ============
+  Social Links
+  ============
+   */
 
 .social-link {
   display: flex;
@@ -440,10 +430,10 @@ Social Links
 }
 
 /* 
-==============
-Footer
-==============
- */
+  ==============
+  Footer
+  ==============
+   */
 
 .footer--container {
   display: flex;
