@@ -124,7 +124,7 @@ html {
 
 .bg--img {
   min-height: 100vh;
-  background: linear-gradient(#090809ba, #050108cc),
+  background: linear-gradient(#000000eb, #050008d1),
     url("/images/testing-image3.jpg") no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
