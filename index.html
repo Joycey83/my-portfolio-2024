@@ -29,94 +29,77 @@
     <link rel="stylesheet" href="/css/portfolio.css" />
     <title>Joyce Cheung: Portfolio</title>
   </head>
-  <body>
-    <div class="page-container">
-      <!-- Navigation section -->
-
-      <div class="nav-section">
-        <div class="nav-menu">
-          <a href="#">
-            <img
-              src="/images/joyce-logo-white.png"
-              alt="My person black and white logo of my name"
-              class="logo"
-            />
-          </a>
-          <div class="hamburger-menu d-none d-md-block mt-5">
-            <div class="three-bars"></div>
-          </div>
+  <body class="bg--img">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/index.html">
+          <img
+            src="images/joyce-logo-white.png"
+            alt="My personal Logo"
+            class="my-logo d-none d-md-block"
+          />
+          <img
+            src="/images/joyce-logo-white.png"
+            alt="Person logo for mobile device"
+            class="my-logo d-block d-md-none"
+          />
+        </a>
+        <div class="about-navigation--links">
+          <ul>
+            <li class="nav-link active">
+              <a href="/index.html" title="Homepage">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="/about.html" title="About Joyce">About</a>
+            </li>
+            <li class="nav-link">
+              <a href="/work.html" title="Joyce's Projects">Projects</a>
+            </li>
+            <li class="nav-link">
+              <a href="/contact.html" title="Joyce's contact details"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
-      </div>
-
-      <!-- Background image container section -->
-      <div class="bg-image-container">
-        <div class="bg-image-inner-container">
-          <header>
-            <div class="image-overlay">
-              <span class="name-sub">I am</span>
-              <h1 class="name-title">Joyce Cheung</h1>
-              <h2 class="job-title">
-                I am a <span class="typed-text"></span
-                ><span class="cursor"></span>
-              </h2>
-
-              <a href="about.html" class="generic-btn mt-4">about me</a>
-              <div class="social-link">
-                <a
-                  href="https://www.instagram.com/i_can_code_too/"
-                  target="_blank"
-                  class="social--icon"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a
-                  href="https://github.com/Joycey83"
-                  target="_blank"
-                  class="social--icon"
-                >
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/joycecheung24/"
-                  target="_blank"
-                  class="social--icon"
-                >
-                  <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a
-                  href="https://drive.google.com/file/d/1Ml5j32snu6yFiyxVqyoPSAQ61kyB1T08/view?usp=share_link"
-                  target="_blank"
-                  class="social--icon"
-                >
-                  <span class="cv--icon">CV</span>
-                </a>
-              </div>
-            </div>
-          </header>
-        </div>
-        <div class="shadow one"></div>
-        <div class="shadow two"></div>
-      </div>
-
-      <!-- Navigation bar section -->
-      <div class="navigation-links">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About Me</a>
-          </li>
-          <li>
-            <a href="project.html">Projects</a>
-          </li>
-          <li>
-            <a href="#">Contact Me</a>
-          </li>
-        </ul>
-      </div>
+      </nav>
     </div>
 
-    <script src="/js/portfolio.js"></script>
+    <footer class="footer--container">
+      <div class="footer-icons">
+        <a
+          href="https://github.com/Joycey83"
+          target="_blank"
+          class="pulse-btn social-icon"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <div class="footer-icons">
+        <a
+          href="https://www.instagram.com/i_can_code_too/"
+          target="_blank"
+          class="pulse-btn social-icon"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <div class="footer-icons">
+        <a
+          href="https://www.linkedin.com/in/joycecheung24/"
+          target="_blank"
+          class="pulse-btn social-icon"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <div class="footer-icons">
+        <a
+          href="https://drive.google.com/file/d/1Ml5j32snu6yFiyxVqyoPSAQ61kyB1T08/view?usp=share_link"
+          target="_blank"
+          class="pulse-btn social-icon resume-highlight"
+        >
+          <span class="resume-icon">Resume</span>
+        </a>
+      </div>
+    </footer>
+    <!-- <script src="/js/portfolio.js"></script> -->
   </body>
 </html>
