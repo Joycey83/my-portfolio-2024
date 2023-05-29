@@ -34,6 +34,9 @@ html {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: var(--letter-spacing);
+  backdrop-filter: blur(5px);
+  max-width: 90%;
+  padding: 30px;
 }
 
 .name-sub {
@@ -136,7 +139,7 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.712);
+  /* background-color: rgba(0, 0, 0, 0.712); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,6 +355,7 @@ nav a {
   color: #522d80;
   padding: 0 0.5rem;
   font-size: 1.2rem;
+  backdrop-filter: blur(9px);
 }
 .about-me--container {
   padding: 80px 50px;
@@ -617,6 +621,7 @@ PROJECTS
 }
 
 .project--heading {
+  backdrop-filter: blur(9px);
   text-align: center;
   text-transform: uppercase;
   color: #adff2f;
