@@ -32,18 +32,18 @@ ul {
 ============
 Section
 ============
- */
+*/
 
- .section-center {
+.section {
+  padding: 3rem 0;
+}
+.section-center {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
 }
 
-.section-.section {
-  padding: 3rem 0;
-}
-divider {
+.section-divider {
   margin: 0 auto;
   width: 30%;
   border: 3px solid #a020f0;
