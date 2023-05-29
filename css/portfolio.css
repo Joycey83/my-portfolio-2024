@@ -24,6 +24,21 @@ ul {
   list-style: none;
 }
 
+.bg--img {
+  min-height: 100vh;
+
+  background: linear-gradient(#000000eb, #050008d1),
+    url("/images/testing-image3.jpg") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 
+  ============
+  Section
+  ============
+   */
+
 .section {
   padding: 3rem 0;
 }
@@ -271,7 +286,6 @@ nav a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 
 .view-certificate {
