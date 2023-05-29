@@ -598,6 +598,16 @@ Certificates
 .api--icon {
   margin-left: 10px;
 }
+/* 
+===============
+PROJECTS
+===============
+*/
+
+.responsive--container {
+  background-color: #a8a9ad;
+  padding: 4rem;
+}
 
 /* 
 ============
