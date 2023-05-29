@@ -605,13 +605,13 @@ PROJECTS
 */
 
 .responsive--container {
-  /* border: 3px solid #bfff00; */
+  background-color: #3b353584;
+  border-radius: 8px;
   padding: 1rem;
 }
 
 .responsive--img {
-  width: 300px;
-  height: auto;
+  border-radius: 10px;
 }
 
 /* 
