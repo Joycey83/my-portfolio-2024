@@ -18,6 +18,11 @@ ul {
   list-style: none;
 }
 
+h1,
+h2 {
+  font-family: "Rubik", sans-serif;
+}
+
 /* 
 ============
    HOME
@@ -50,7 +55,6 @@ ul {
 }
 
 .home-title {
-  font-family: "Rubik", sans-serif;
   font-weight: 800;
   font-size: 5.2rem;
   color: aliceblue;
@@ -243,6 +247,8 @@ nav a {
 .about-heading {
   color: #adff2f;
   font-size: 2.3rem;
+  font-weight: 700;
+  text-transform: capitalize;
   text-align: center;
   letter-spacing: var(--letter-spacing);
 }
@@ -540,6 +546,19 @@ nav a {
   border-radius: 5px;
   display: block;
   margin: 0.3rem auto;
+}
+
+.project-heading {
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.project-wrapper {
+  margin: 3.2rem 2rem;
+}
+
+.project--description {
+  padding: 1.2rem 2.2rem;
 }
 
 /* 
