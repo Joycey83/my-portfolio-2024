@@ -14,14 +14,19 @@ html {
   font-family: "Oswald", sans-serif;
   overflow-x: hidden;
 }
+ul {
+  list-style: none;
+}
+
+/* 
+============
+   HOME
+============
+ */
 
 .logo {
   width: 150px;
   padding: 15px;
-}
-
-ul {
-  list-style: none;
 }
 
 .bg--img {
@@ -31,6 +36,147 @@ ul {
     url("/images/testing-image3.jpg") no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hero--container {
+  margin: 8rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero--content {
+  text-align: center;
+}
+
+.home-title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 5.2rem;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+
+.home-sub-title {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 2.8rem;
+  letter-spacing: var(--letter-spacing);
+}
+
+.home-sub-title-span {
+  color: #bfff00;
+}
+
+.location--heading {
+  color: aliceblue;
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: var(--letter-spacing);
+}
+
+.location-span {
+  color: #663399;
+}
+/* Glowing effect buttons */
+
+.home-btn--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-btn {
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-101 svg {
+  vertical-align: middle;
+}
+
+.home-btn {
+  --thickness: 0.4rem;
+  --roundness: 0.2rem;
+  --color: white;
+  --opacity: 0.6;
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  background: none;
+  /*   background: purple; */
+  border: 2px solid green;
+  border-radius: var(--roundness);
+  color: var(--color);
+  cursor: pointer;
+  display: block;
+  font-weight: 300;
+  padding: 1rem 0.5rem;
+  position: relative;
+}
+.home-btn:hover {
+  /*   background: green; */
+  filter: brightness(1.2);
+}
+
+.home-btn h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: var(--letter-spacing);
+}
+
+.home-btn svg {
+  border-radius: var(--roundness);
+  display: block;
+  filter: url(#glow);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.home-btn rect {
+  fill: none;
+  stroke: var(--color);
+  stroke-width: var(--thickness);
+  /* rx: var(--roundness); */
+  stroke-linejoin: round;
+  stroke-dasharray: 185%;
+  stroke-dashoffset: 80;
+  -webkit-animation: snake 2s linear infinite;
+  animation: snake 2s linear infinite;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.2s;
+  width: 100%;
+}
+.home-btn:hover rect {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  opacity: var(--opacity);
+}
+@-webkit-keyframes snake {
+  to {
+    stroke-dashoffset: 370%;
+  }
+}
+@keyframes snake {
+  to {
+    stroke-dashoffset: 370%;
+  }
+}
+
+.btn--container {
+  margin: 6rem 1rem;
+}
+
+.projects {
+  text-decoration: none;
 }
 
 /* 
