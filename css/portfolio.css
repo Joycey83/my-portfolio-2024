@@ -361,8 +361,9 @@ nav a {
 
 .skill-tech,
 .certificates {
-  font-size: 2.4rem;
   color: #adff2f;
+  font-size: 2.4rem;
+  font-weight: 700;
   letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
   text-align: center;
@@ -387,7 +388,6 @@ nav a {
 
 .skill--icon {
   font-size: 4.5rem;
-  /* color: #e5e4e2; */
   color: #a8a9ad;
 }
 
@@ -532,7 +532,9 @@ nav a {
 }
 
 .project--heading {
-  backdrop-filter: blur(9px);
+  /* backdrop-filter: blur(9px); */
+  font-weight: 700;
+  font-size: 4rem;
   text-align: center;
   text-transform: uppercase;
   color: #adff2f;
@@ -549,8 +551,14 @@ nav a {
 }
 
 .project-heading {
-  font-weight: 400;
+  font-weight: 300;
   color: aliceblue;
+  line-height: 1.2;
+  /* border: 2px solid #8b008b;
+  inline-size: 80%;
+  padding: 3px 6px;
+  border-radius: 5px; */
+  letter-spacing: var(--letter-spacing);
 }
 
 .project-wrapper {
@@ -558,7 +566,39 @@ nav a {
 }
 
 .project--description {
-  padding: 1.2rem 2.2rem;
+  padding: 1rem 2.2rem;
+  margin-top: 2rem;
+}
+
+.desc-paragraph {
+  font-weight: 200;
+  line-height: 1.5;
+  padding: 1rem 0;
+  color: aliceblue;
+}
+
+.img--container {
+  padding: 2rem;
+}
+
+.project--img {
+  border-radius: 25px;
+  border: 3px solid #8b008b;
+  margin-top: 1.3rem;
+}
+
+.project-btn--container {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  right: 10px;
+  top: -90px;
+}
+
+.project-tech-icon {
+  font-size: 2rem;
+  color: #a8a9ad;
+  margin-top: 0.5rem;
 }
 
 /* 
