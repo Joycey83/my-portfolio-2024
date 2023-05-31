@@ -274,6 +274,7 @@ nav a {
 
 .about--info {
   color: #fff;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -565,7 +566,7 @@ nav a {
 }
 
 .desc-paragraph {
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.5;
   padding: 1rem 0;
   color: aliceblue;
@@ -726,6 +727,11 @@ Working Progress Projects
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+.wrk-progress-info {
+  text-align: center;
+  color: aliceblue;
 }
 
 /* 
