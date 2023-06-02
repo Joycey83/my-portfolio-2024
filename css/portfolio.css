@@ -786,12 +786,12 @@ Contact Me
   background-image: url(/images/contact-banner.png);
 }
 
-.contact--container {
+/* .contact--container {
   backdrop-filter: blur(6px);
   max-width: 740px;
   margin: 0 auto;
   padding: 2rem 2rem;
-}
+} */
 
 .contact-title {
   text-shadow: 2px 0 #522d80, -2px 0 #522d80, 0 2px #522d80, 0 -2px #fff,
