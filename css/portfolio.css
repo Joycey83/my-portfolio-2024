@@ -518,6 +518,15 @@ nav a {
   ===============
   */
 
+.project--paragraph {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.workshop-paragraph {
+  color: aliceblue;
+}
+
 .responsive--container {
   border-radius: 8px;
   padding: 1rem;
@@ -711,6 +720,15 @@ Working Progress Projects
 .working-progress--projects {
   text-align: center;
   color: #adff2f;
+  margin-bottom: 1.3rem;
+}
+
+.sub-project--heading {
+  color: #e6e8fa;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: 5rem;
+  letter-spacing: var(--letter-spacing);
 }
 
 .working-img--container {
@@ -730,6 +748,8 @@ Working Progress Projects
 }
 
 .wrk-progress-info {
+  font-size: 1.3rem;
+  font-weight: 300;
   text-align: center;
   color: aliceblue;
 }

@@ -6,7 +6,7 @@ var rootElement = document.documentElement;
 function handleScroll() {
   var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
   if (rootElement.scrollTop / scrollTotal > 0.3) {
-    // Show button
+    // Show button when the page is scrolled 30%
     scrollToTopBtn.classList.add("showBtn");
   } else {
     // Hide button
