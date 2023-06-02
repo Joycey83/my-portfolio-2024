@@ -524,7 +524,18 @@ nav a {
 }
 
 .workshop-paragraph {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5;
   color: aliceblue;
+}
+
+.workshop-paragraph a {
+  text-decoration: none;
+}
+
+.workshop-paragraph a:hover {
+  color: #8b008b;
 }
 
 .responsive--container {
@@ -579,6 +590,14 @@ nav a {
   line-height: 1.5;
   padding: 1rem 0;
   color: aliceblue;
+}
+
+.desc-paragraph a {
+  text-decoration: none;
+}
+
+.desc-paragraph a:hover {
+  color: #8b008b;
 }
 
 .img--container {
