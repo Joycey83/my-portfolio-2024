@@ -780,10 +780,19 @@ Contact Me
  */
 
 .contact--banner {
-  margin: 5rem 2rem;
-  padding: 4rem;
-  border: 2px solid #adff2f;
-  background-image: url(/images/contact-banner.png);
+  margin: 2rem 2rem;
+  padding: 3rem;
+  position: relative;
+}
+
+.contact--banner img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 /* .contact--container {
@@ -799,10 +808,25 @@ Contact Me
   text-align: center;
   font-size: 5rem;
   font-weight: 800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
 }
 
+.contact-social--icon {
+  font-size: 3rem;
+  margin-right: 3rem;
+}
+
+.contact-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
 /* 
   ============
   Social Links
