@@ -818,7 +818,14 @@ Contact Me
 
 .contact-social--icon {
   font-size: 3rem;
-  margin-right: 3rem;
+  padding: 0 2rem;
+  color: #adff2f;
+}
+
+.contact-social--icon:hover {
+  border: 2px solid #8b008b;
+  border-radius: 100px;
+  color: #e6e8fa;
 }
 
 .contact-icon-container {
