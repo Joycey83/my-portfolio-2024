@@ -774,6 +774,28 @@ Working Progress Projects
 }
 
 /* 
+======================
+Contact Me
+======================
+ */
+
+.contact--banner {
+  margin: 5rem 2rem;
+  padding: 10rem;
+  border: 2px solid #adff2f;
+  background-image: url(/images/contact-banner.png);
+}
+
+.contact-title {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: var(--letter-spacing);
+  text-transform: uppercase;
+}
+
+/* 
   ============
   Social Links
   ============
