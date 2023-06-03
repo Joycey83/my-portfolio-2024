@@ -791,21 +791,11 @@ Contact Me
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* filter: blur(5px);
-  -webkit-filter: blur(5px); */
 }
 
-/* .contact--container {
-  backdrop-filter: blur(6px);
-  max-width: 740px;
-  margin: 0 auto;
-  padding: 2rem 2rem;
-} */
-
 .contact-title {
-  text-shadow: 2px 0 #522d80, -2px 0 #522d80, 0 3px #522d80, 0 -3px #f4f2f2,
-    3px 3px #fff, -1px -1px #fff, 1px -1px #f1eeee, -1px 1px #f7ebeb;
-  /* color: azure; */
+  text-shadow: 2px 0 #522d80, -2px 0 #522d80, 0 3px #522d80, 0 -3px #fff,
+    3px 3px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
   text-align: center;
   font-size: 5rem;
   font-weight: 800;
@@ -819,7 +809,7 @@ Contact Me
 
 .contact-social--icon {
   font-size: 3rem;
-  padding: 0 2rem;
+  padding: 0 5rem;
   color: #a020f0;
 }
 
@@ -831,7 +821,7 @@ Contact Me
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem 0;
+  margin-bottom: 3rem;
 }
 /* 
   ============
