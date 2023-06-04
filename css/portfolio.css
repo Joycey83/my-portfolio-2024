@@ -1035,6 +1035,18 @@ Contact Me
   }
 
   .footer-icons {
-    margin-left: -3px;
+    margin-left: 0;
+  }
+
+  .pulse-btn {
+    line-height: 1.5;
+    display: block;
+    width: 3px;
+    height: 30px;
+    padding: 41px;
+  }
+
+  .resume-icon {
+    font-size: 28px;
   }
 }
