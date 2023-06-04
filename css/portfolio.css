@@ -1124,4 +1124,12 @@ Contact Me
   .skill-tech::after {
     width: 40%;
   }
+
+  .certificates::after {
+    width: 42%;
+  }
+
+  .section-divider {
+    width: 70%;
+  }
 }
