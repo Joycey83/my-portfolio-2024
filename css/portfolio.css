@@ -529,7 +529,7 @@ nav a {
 }
 
 .project-wrapper {
-  margin: 2rem 2rem;
+  padding-top: 3rem;
 }
 
 .desc-paragraph {
@@ -690,6 +690,7 @@ Working Progress Projects
 }
 
 .sub-project--heading {
+  font-size: 1.6rem;
   color: #e6e8fa;
   font-weight: 300;
   line-height: 1.2;
@@ -1068,21 +1069,6 @@ Contact Me
     font-size: 1.7rem;
   }
 
-  .about-heading::after {
-    width: 30%;
-  }
-
-  .skill-tech::after {
-    width: 40%;
-  }
-
-  .certificates::after {
-    width: 42%;
-  }
-
-  .section-divider {
-    width: 70%;
-  }
   .border--img {
     border: 2px solid #8b008b;
   }
@@ -1096,6 +1082,7 @@ Contact Me
   }
 
   .project-heading {
+    text-align: center;
     font-size: 1.1rem;
   }
 
@@ -1103,11 +1090,24 @@ Contact Me
     font-size: 1rem;
   }
 
+  /* .project--description {
+    padding: 0 1rem;
+  } */
+
   .project-button {
     padding: 0.4rem 0.4rem;
   }
 
   .project-button h3 {
     font-size: 1rem;
+  }
+
+  .sub-project--heading {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .wrk-progress-info {
+    font-size: 1.1rem;
   }
 }
