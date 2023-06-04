@@ -539,13 +539,7 @@ nav a {
 }
 
 .project-wrapper {
-  margin: 2.2rem 2rem;
-}
-
-.project--description {
-  font-size: 1.3rem;
-  padding: 1rem 2.2rem;
-  margin-top: 2rem;
+  margin: 2rem 2rem;
 }
 
 .desc-paragraph {
@@ -1117,6 +1111,6 @@ Contact Me
   }
 
   .desc-paragraph {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
