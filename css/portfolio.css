@@ -994,7 +994,6 @@ Contact Me
   .hero--container {
     margin: 5rem 0;
   }
-
   .bg--img {
     background: linear-gradient(#000000eb, #050008d1),
       url("/images/testing-image3.jpg") no-repeat;
@@ -1033,5 +1032,9 @@ Contact Me
 
   .footer--container {
     margin: 0 4rem;
+  }
+
+  .footer-icons {
+    margin-left: -10px;
   }
 }
