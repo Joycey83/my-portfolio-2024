@@ -247,7 +247,7 @@ nav a {
   letter-spacing: var(--letter-spacing);
 }
 
-.about-heading::after {
+/* .about-heading::after {
   content: "";
   width: 15%;
   border: 2px solid #663399;
@@ -255,7 +255,7 @@ nav a {
   position: relative;
   display: block;
   margin: 5px auto;
-}
+} */
 
 .about-navigation--links a {
   color: #522d80;
@@ -362,17 +362,6 @@ nav a {
   text-align: center;
 }
 
-.skill-tech::after {
-  content: "";
-  width: 5%;
-  border: 2px solid #663399;
-  border-radius: 5px;
-  position: relative;
-  /* left: 7.9rem; */
-  display: block;
-  margin: 0.2rem auto;
-}
-
 .skill--container p {
   font-size: 1.2rem;
   color: #522d80;
@@ -392,18 +381,6 @@ nav a {
   */
 .certificate--container {
   padding: 2.4rem;
-}
-
-.certificates::after {
-  content: "";
-  width: 8%;
-  border: 2px solid #663399;
-  border-radius: 5px;
-  display: block;
-  position: relative;
-  margin: auto;
-  /* left: 3.3rem; */
-  margin-top: 0.2rem;
 }
 
 .border--img {
@@ -552,15 +529,6 @@ nav a {
   text-transform: uppercase;
   color: #adff2f;
   letter-spacing: 2px;
-}
-
-.project--heading::after {
-  content: "";
-  width: 16%;
-  border: 2px solid #663399;
-  border-radius: 5px;
-  display: block;
-  margin: 0.3rem auto;
 }
 
 .project-heading {
@@ -1131,5 +1099,8 @@ Contact Me
 
   .section-divider {
     width: 70%;
+  }
+  .border--img {
+    border: 2px solid #8b008b;
   }
 }
