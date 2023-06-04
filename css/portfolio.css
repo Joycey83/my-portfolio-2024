@@ -522,7 +522,6 @@ nav a {
 }
 
 .project--heading {
-  /* backdrop-filter: blur(9px); */
   font-weight: 700;
   font-size: 4rem;
   text-align: center;
@@ -550,6 +549,7 @@ nav a {
 }
 
 .desc-paragraph {
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.5;
   padding: 1rem 0;
@@ -959,7 +959,7 @@ Contact Me
 
 @media screen and (max-width: 600px) {
   .hero--container {
-    margin: 5rem 0;
+    margin: 4rem 0;
   }
   .bg--img {
     background: linear-gradient(#000000eb, #050008d1),
@@ -974,7 +974,7 @@ Contact Me
   }
   .about-navigation--links a {
     padding: 0;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .home-title {
@@ -1102,5 +1102,21 @@ Contact Me
   }
   .border--img {
     border: 2px solid #8b008b;
+  }
+
+  .project--heading {
+    font-size: 2.2rem;
+  }
+
+  .workshop-paragraph {
+    font-size: 0.8rem;
+  }
+
+  .project-heading {
+    font-size: 1.1rem;
+  }
+
+  .desc-paragraph {
+    font-size: 0.7rem;
   }
 }
