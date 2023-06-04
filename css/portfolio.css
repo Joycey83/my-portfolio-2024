@@ -1057,4 +1057,13 @@ Contact Me
     position: relative;
     margin: 2rem auto;
   }
+
+  .about-me--container {
+    padding: 50px 20px;
+  }
+
+  .about--info {
+    font-size: 0.8rem;
+    padding: 2rem 0;
+  }
 }
