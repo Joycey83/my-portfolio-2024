@@ -991,6 +991,10 @@ Contact Me
  */
 
 @media screen and (max-width: 600px) {
+  .hero--container {
+    margin: 5rem 0;
+  }
+
   .bg--img {
     background: linear-gradient(#000000eb, #050008d1),
       url("/images/testing-image3.jpg") no-repeat;
@@ -1025,5 +1029,9 @@ Contact Me
 
   .home-btn h3 {
     font-size: 1rem;
+  }
+
+  .footer--container {
+    margin: 0 4rem;
   }
 }
