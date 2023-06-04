@@ -186,7 +186,7 @@ h2 {
    */
 
 .section {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 .section-center {
   width: 90vw;
@@ -196,6 +196,7 @@ h2 {
 
 .section-divider {
   margin: 0 auto;
+  margin-bottom: 3rem;
   width: 30%;
   border: 3px solid #bf00ff;
   border-radius: 3px;
@@ -576,7 +577,7 @@ nav a {
 }
 
 .project-wrapper {
-  margin: 3.2rem 2rem;
+  margin: 2.2rem 2rem;
 }
 
 .project--description {
