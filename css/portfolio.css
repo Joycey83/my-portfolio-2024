@@ -23,16 +23,15 @@ h2 {
   font-family: "Rubik", sans-serif;
 }
 
+.my-logo {
+  max-height: 40px;
+}
+
 /* 
 ============
    HOME
 ============
  */
-
-.logo {
-  width: 150px;
-  padding: 15px;
-}
 
 .bg--img {
   min-height: 100vh;
@@ -92,9 +91,9 @@ h2 {
   align-items: center;
 }
 
-.home-btn svg {
+/* .home-btn svg {
   vertical-align: middle;
-}
+} */
 
 .home-btn {
   --thickness: 0.4rem;
@@ -211,9 +210,7 @@ h2 {
 nav {
   padding: 20px 0;
 }
-.my-logo {
-  max-height: 40px;
-}
+
 nav ul {
   padding: 0;
   margin: 0;
@@ -264,7 +261,6 @@ nav a {
   color: #522d80;
   padding: 0 0.5rem;
   font-size: 1.2rem;
-  backdrop-filter: blur(9px);
 }
 .about-me--container {
   padding: 80px 50px;
@@ -985,5 +981,49 @@ Contact Me
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 #adff2f;
+  }
+}
+
+/* 
+******************************************************
+                    MEDIA QUERIES
+******************************************************
+ */
+
+@media screen and (max-width: 600px) {
+  .bg--img {
+    background: linear-gradient(#000000eb, #050008d1),
+      url("/images/testing-image3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+  }
+  .my-logo {
+    width: 40px;
+  }
+  .about-navigation--links a {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-sub-title {
+    font-size: 1.2rem;
+  }
+
+  .location--heading {
+    font-size: 1rem;
+  }
+
+  .home-btn {
+    padding: 0.3rem 0.4rem;
+  }
+
+  .home-btn h3 {
+    font-size: 1rem;
   }
 }
