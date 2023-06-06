@@ -1023,6 +1023,10 @@ Contact Me
     display: none;
   }
 
+  .section-divider {
+    width: 60%;
+  }
+
   .about-btn--container {
     position: relative;
     right: 45px;
@@ -1063,6 +1067,14 @@ Contact Me
 
   .skill-tech {
     font-size: 1.4rem;
+  }
+
+  .skill--icon {
+    font-size: 3rem;
+  }
+
+  .skill--container p {
+    font-size: 1rem;
   }
 
   .certificates {
@@ -1128,5 +1140,35 @@ Contact Me
   }
 }
 
+/* 
+==========================================
+MEDIA QUERIES: TABLET
+==========================================
+ */
+
 @media screen and (max-width: 992px) {
+  .about--img {
+    margin-bottom: 1.6rem;
+  }
+  .about--img-container::before {
+    border: none;
+  }
+
+  .border--img {
+    border: 3px solid #8b008b;
+  }
+
+  .about-btn--container {
+    position: relative;
+    left: 110px;
+  }
+
+  .about--img-container {
+    position: relative;
+    left: -22px;
+  }
+
+  .section-divider {
+    width: 70%;
+  }
 }
