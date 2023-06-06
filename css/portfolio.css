@@ -1005,8 +1005,13 @@ Contact Me
     border: none;
   }
 
+  .about--img {
+    position: relative;
+    left: 30px;
+  }
+
   .about--img-container {
-    margin: 2rem auto;
+    margin: 0 auto;
   }
 
   .about-me--container {
