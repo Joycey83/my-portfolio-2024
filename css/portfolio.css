@@ -1138,6 +1138,26 @@ Contact Me
     font-size: 2rem;
     padding: 0 1.7rem;
   }
+
+  .tech-icons {
+    display: none;
+  }
+
+  .tech-icons-1 i {
+    display: none;
+  }
+
+  .tech-icons-2 i {
+    display: none;
+  }
+
+  .tech-icons-3 i {
+    display: none;
+  }
+
+  .api--icon {
+    display: none;
+  }
 }
 
 /* 
@@ -1170,5 +1190,25 @@ MEDIA QUERIES: TABLET
 
   .section-divider {
     width: 70%;
+  }
+
+  .tech-icons {
+    display: none;
+  }
+
+  .tech-icons-1 i {
+    display: none;
+  }
+
+  .tech-icons-2 i {
+    display: none;
+  }
+
+  .tech-icons-3 i {
+    display: none;
+  }
+
+  .api--icon {
+    display: none;
   }
 }
