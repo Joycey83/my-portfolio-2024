@@ -1110,6 +1110,15 @@ Contact Me
   .wrk-progress-info {
     font-size: 1.1rem;
   }
+
+  .contact-title {
+    font-size: 1.2rem;
+  }
+
+  .contact--banner img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
