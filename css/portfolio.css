@@ -1113,8 +1113,8 @@ Contact Me
 
   .contact-title {
     font-size: 1.2rem;
-    text-shadow: 2px 0 #522d80, -2px 0 #522d80, 0 2px #522d80, 0 -2px #fff,
-      1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    text-shadow: none;
+    color: aliceblue;
   }
 
   .contact--banner img {
