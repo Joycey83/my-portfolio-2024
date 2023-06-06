@@ -1006,7 +1006,6 @@ Contact Me
   }
 
   .about--img-container {
-    position: relative;
     margin: 2rem auto;
   }
 
@@ -1178,15 +1177,10 @@ MEDIA QUERIES: TABLET
     border: 3px solid #8b008b;
   }
 
-  .about-btn--container {
+  /* .about-btn--container {
     position: relative;
     left: 110px;
-  }
-
-  .about--img-container {
-    position: relative;
-    left: -22px;
-  }
+  } */
 
   .section-divider {
     width: 70%;
@@ -1211,4 +1205,9 @@ MEDIA QUERIES: TABLET
   .api--icon {
     display: none;
   }
+
+  /* .about--img-container {
+    position: relative;
+    left: -30px;
+  } */
 }
