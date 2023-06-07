@@ -703,12 +703,25 @@ Working Progress Projects
 }
 
 .working-img--container {
+  position: relative;
   margin: 2rem 0;
 }
 
 .working--img {
   border-radius: 25px;
   border: 3px solid #8b008b;
+}
+
+.working--progress-info {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  font-size: 1.3rem;
+  background-color: #000;
+  border-radius: 5px;
+  color: #adff2f;
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
 }
 
 .working-progress-btn {
@@ -1165,6 +1178,14 @@ Contact Me
 
   .api--icon {
     display: none;
+  }
+
+  .working-progress--projects {
+    font-size: 2rem;
+  }
+
+  .working--progress-info {
+    font-size: 1rem;
   }
 }
 
