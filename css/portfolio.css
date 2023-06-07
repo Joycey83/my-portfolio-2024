@@ -685,8 +685,12 @@ Working Progress Projects
 
 .working-progress--projects {
   text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
   color: #adff2f;
   margin-bottom: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
 }
 
 .sub-project--heading {
