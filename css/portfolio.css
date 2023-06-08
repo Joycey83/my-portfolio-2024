@@ -119,6 +119,7 @@ h2 {
 .home-btn:hover {
   /*   background: green; */
   filter: brightness(1.2);
+  cursor: url(/images/icons8-hand-cursor-64.png), default;
 }
 
 .home-btn h3 {
@@ -327,6 +328,7 @@ nav a {
 .resume-btn:hover {
   border: 2px solid #a020f0;
   transform: scale(1.2);
+  cursor: url(/images/icons8-hand-cursor-64.png), default;
 }
 
 .project-text {
@@ -384,7 +386,7 @@ nav a {
 
 .certificate--outer-img:hover img {
   opacity: 0.2;
-  /* cursor: pointer; */
+  cursor: url(/images/icons8-hand-cursor-64.png), default;
 }
 
 .certificate--outer-img:hover .view-btn {
@@ -605,7 +607,6 @@ nav a {
   border: 2px solid green;
   border-radius: var(--roundness);
   color: var(--color);
-  cursor: pointer;
   display: block;
   font-weight: 300;
   padding: 0.5rem 0.8rem;
@@ -614,6 +615,7 @@ nav a {
 .project-button:hover {
   /*   background: green; */
   filter: brightness(1.2);
+  cursor: url(/images/icons8-hand-cursor-64.png), default;
 }
 
 .project-button h3 {
@@ -781,6 +783,7 @@ Contact Me
 
 .contact-social--icon:hover {
   color: #e6e8fa;
+  cursor: url(/images/icons8-hand-cursor-64.png), default;
 }
 
 .contact-icon-container {
@@ -845,7 +848,6 @@ Contact Me
 .scrollToTopBtn {
   background-color: black;
   border: 3px solid green;
-  /* cursor: pointer; */
   border-radius: 50%;
   font-size: 18px;
   line-height: 40px;
