@@ -110,7 +110,7 @@ h2 {
   border: 2px solid green;
   border-radius: var(--roundness);
   color: var(--color);
-  cursor: pointer;
+  /* cursor: pointer; */
   display: block;
   font-weight: 300;
   padding: 0.8rem 0.5rem;
@@ -384,7 +384,7 @@ nav a {
 
 .certificate--outer-img:hover img {
   opacity: 0.2;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .certificate--outer-img:hover .view-btn {
@@ -417,6 +417,7 @@ nav a {
   text-decoration: none;
   color: purple;
   transform: scale(1.05);
+  cursor: url(/images/icons8-hand-cursor-64.png), default;
 }
 
 .cert-text {
@@ -844,7 +845,7 @@ Contact Me
 .scrollToTopBtn {
   background-color: black;
   border: 3px solid green;
-  cursor: pointer;
+  /* cursor: pointer; */
   border-radius: 50%;
   font-size: 18px;
   line-height: 40px;
@@ -923,7 +924,7 @@ Contact Me
 
 .pulse-btn {
   color: #a020f0;
-  cursor: pointer;
+  /* cursor: pointer; */
   line-height: 1.5;
   display: block;
   border: 2px solid #a020f0;
