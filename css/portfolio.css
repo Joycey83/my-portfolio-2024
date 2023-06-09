@@ -187,6 +187,12 @@ h2 {
 }
 
 /* 
+====================
+Feature Project
+====================
+ */
+
+/* 
   ============
   Section
   ============
@@ -247,7 +253,8 @@ nav a {
 }
 
 .about-heading,
-.hobby--heading {
+.hobby--heading,
+.feature--heading {
   color: #adff2f;
   font-size: 2.3rem;
   font-weight: 700;
