@@ -354,7 +354,33 @@ My Hobbies
 
 .hobby--container {
   padding: 3rem 0;
+  align-items: start;
 }
+
+.hobby-card {
+  margin: 2rem 0.25rem;
+  width: 18rem;
+  border: 2px solid #8b008b;
+  padding: 0;
+}
+
+.card-title {
+  color: #e6e8fa;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+/* .baking--img {
+  display: block;
+  width: 100%; 
+} */
 
 /* 
   ==============
@@ -970,35 +996,6 @@ Contact Me
   0% {
     box-shadow: 0 0 0 0 #adff2f;
   }
-}
-
-.hobby--container {
-  align-items: start;
-}
-
-.hobby-card {
-  margin: 2rem 0.25rem;
-  width: 18rem;
-  border: 2px solid #8b008b;
-  padding: 0;
-}
-
-.card-title {
-  color: #e6e8fa;
-  font-size: 1.5rem;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: var(--letter-spacing);
-}
-
-.card-body {
-  padding: 0.5rem;
-}
-
-.baking--img {
-  display: block;
-  width: 100%;
 }
 
 /* 
