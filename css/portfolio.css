@@ -11,6 +11,7 @@
 
 body,
 html {
+  height: 100%;
   font-family: "Oswald", sans-serif;
   overflow-x: hidden;
 }
@@ -37,8 +38,12 @@ h2 {
 ============
  */
 
+.bg-color {
+  background-color: #000;
+}
+
 .bg--img {
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(#000000eb, #050008d1),
     url("/images/testing-image3.jpg") no-repeat;
   background-size: cover;
@@ -46,7 +51,7 @@ h2 {
 }
 
 .hero--container {
-  margin: 8rem 0;
+  margin: 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;

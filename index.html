@@ -30,136 +30,193 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico.png" />
     <title>Joyce Cheung: Portfolio</title>
   </head>
-  <body class="bg--img">
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/index.html">
-          <img
-            src="images/joyce-logo-white.png"
-            alt="My personal Logo"
-            class="my-logo d-none d-md-block"
-          />
-          <img
-            src="/images/mobile-image.png"
-            alt="Person logo for mobile device"
-            class="my-logo d-block d-md-none"
-          />
-        </a>
-        <div class="about-navigation--links">
-          <ul>
-            <li class="nav-link active">
-              <a href="/index.html">Home</a>
-            </li>
-            <li class="nav-link">
-              <a href="/about.html">About</a>
-            </li>
-            <li class="nav-link">
-              <a href="/project.html">Projects</a>
-            </li>
-            <li class="nav-link">
-              <a href="/contact.html">Contact</a>
-            </li>
-          </ul>
+  <body>
+    <div class="bg--img">
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/index.html">
+            <img
+              src="images/joyce-logo-white.png"
+              alt="My personal Logo"
+              class="my-logo d-none d-md-block"
+            />
+            <img
+              src="/images/mobile-image.png"
+              alt="Person logo for mobile device"
+              class="my-logo d-block d-md-none"
+            />
+          </a>
+          <div class="about-navigation--links">
+            <ul>
+              <li class="nav-link active">
+                <a href="/index.html">Home</a>
+              </li>
+              <li class="nav-link">
+                <a href="/about.html">About</a>
+              </li>
+              <li class="nav-link">
+                <a href="/project.html">Projects</a>
+              </li>
+              <li class="nav-link">
+                <a href="/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <section class="hero--container">
+        <div class="hero--content">
+          <h1 class="home-title">Joyce Cheung</h1>
+          <h2 class="home-sub-title">
+            <span class="home-sub-title-span">Frontend</span> Developer
+          </h2>
+          <h3 class="location--heading">
+            Based in <span class="location-span">London</span>
+          </h3>
+          <div class="home-btn--container">
+            <div class="btn--container">
+              <a href="/contact.html" class="projects">
+                <button class="home-btn">
+                  <h3>Hire me</h3>
+                  <svg>
+                    <defs>
+                      <filter id="glow">
+                        <fegaussianblur
+                          result="coloredBlur"
+                          stddeviation="5"
+                        ></fegaussianblur>
+                        <femerge>
+                          <femergenode in="coloredBlur"></femergenode>
+                          <femergenode in="coloredBlur"></femergenode>
+                          <femergenode in="coloredBlur"></femergenode>
+                          <femergenode in="SourceGraphic"></femergenode>
+                        </femerge>
+                      </filter>
+                    </defs>
+                    <rect />
+                  </svg>
+                </button>
+              </a>
+            </div>
+            <!-- BUTTON TWO -->
+            <div class="btn--container">
+              <a href="/project.html" class="projects">
+                <button class="home-btn">
+                  <h3>Projects</h3>
+                  <svg>
+                    <defs>
+                      <filter id="glow">
+                        <fegaussianblur
+                          result="coloredBlur"
+                          stddeviation="5"
+                        ></fegaussianblur>
+                        <femerge>
+                          <femergenode in="coloredBlur"></femergenode>
+                          <femergenode in="coloredBlur"></femergenode>
+                          <femergenode in="coloredBlur"></femergenode>
+                          <femergenode in="SourceGraphic"></femergenode>
+                        </femerge>
+                      </filter>
+                    </defs>
+                    <rect />
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
-      </nav>
+      </section>
     </div>
-    <section class="hero--container">
-      <div class="hero--content">
-        <h1 class="home-title">Joyce Cheung</h1>
-        <h2 class="home-sub-title">
-          <span class="home-sub-title-span">Frontend</span> Developer
-        </h2>
-        <h3 class="location--heading">
-          Based in <span class="location-span">London</span>
-        </h3>
-        <div class="home-btn--container">
-          <div class="btn--container">
-            <a href="/contact.html" class="projects">
-              <button class="home-btn">
-                <h3>Hire me</h3>
-                <svg>
-                  <defs>
-                    <filter id="glow">
-                      <fegaussianblur
-                        result="coloredBlur"
-                        stddeviation="5"
-                      ></fegaussianblur>
-                      <femerge>
-                        <femergenode in="coloredBlur"></femergenode>
-                        <femergenode in="coloredBlur"></femergenode>
-                        <femergenode in="coloredBlur"></femergenode>
-                        <femergenode in="SourceGraphic"></femergenode>
-                      </femerge>
-                    </filter>
-                  </defs>
-                  <rect />
-                </svg>
-              </button>
-            </a>
+
+    <!-- SKILLS AND TECHNOLOGY -->
+    <div class="bg-color">
+      <section class="section section-center">
+        <h2 class="skill-tech">skills and technology</h2>
+        <div class="row skill--container mt-5 justify-content-center">
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-html5 skill--icon"></i>
+            <p>HTML5</p>
           </div>
-          <!-- BUTTON TWO -->
-          <div class="btn--container">
-            <a href="/project.html" class="projects">
-              <button class="home-btn">
-                <h3>Projects</h3>
-                <svg>
-                  <defs>
-                    <filter id="glow">
-                      <fegaussianblur
-                        result="coloredBlur"
-                        stddeviation="5"
-                      ></fegaussianblur>
-                      <femerge>
-                        <femergenode in="coloredBlur"></femergenode>
-                        <femergenode in="coloredBlur"></femergenode>
-                        <femergenode in="coloredBlur"></femergenode>
-                        <femergenode in="SourceGraphic"></femergenode>
-                      </femerge>
-                    </filter>
-                  </defs>
-                  <rect />
-                </svg>
-              </button>
-            </a>
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-css3-alt skill--icon"></i>
+            <p>CSS</p>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-js skill--icon"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-react skill--icon"></i>
+            <p>React</p>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-bootstrap skill--icon"></i>
+            <p>Bootstrap</p>
+          </div>
+          <div class="col-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-figma skill--icon"></i>
+            <p>Figma</p>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-git-alt skill--icon"></i>
+            <p>Git</p>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-github skill--icon"></i>
+            <p>Github</p>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-solid fa-mobile-screen skill--icon"></i>
+            <p>Responsive Design</p>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-3 p-0 text-center">
+            <i class="fa-brands fa-uikit skill--icon"></i>
+            <p>UI Design</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <footer class="footer--container">
-      <div class="footer-icons">
-        <a
-          href="https://github.com/Joycey83"
-          target="_blank"
-          class="pulse-btn social-icon"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-      </div>
-      <div class="footer-icons">
-        <a
-          href="https://www.instagram.com/i_can_code_too/"
-          target="_blank"
-          class="pulse-btn social-icon"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-      </div>
-      <div class="footer-icons">
-        <a
-          href="https://www.linkedin.com/in/joycecheung24/"
-          target="_blank"
-          class="pulse-btn social-icon"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-      </div>
-      <div class="footer-icons">
-        <a
-          href="https://drive.google.com/file/d/1Ml5j32snu6yFiyxVqyoPSAQ61kyB1T08/view?usp=share_link"
-          target="_blank"
-          class="pulse-btn social-icon resume-highlight"
-        >
-          <span class="resume-icon">Resume</span>
-        </a>
-      </div>
-    </footer>
+      <!-- SKILLS AND TECHNOLOGY ENDS -->
+
+      <footer class="footer--container">
+        <div class="footer-icons">
+          <a
+            href="https://github.com/Joycey83"
+            target="_blank"
+            class="pulse-btn social-icon"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="footer-icons">
+          <a
+            href="https://www.instagram.com/i_can_code_too/"
+            target="_blank"
+            class="pulse-btn social-icon"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="footer-icons">
+          <a
+            href="https://www.linkedin.com/in/joycecheung24/"
+            target="_blank"
+            class="pulse-btn social-icon"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="footer-icons">
+          <a
+            href="https://drive.google.com/file/d/1Ml5j32snu6yFiyxVqyoPSAQ61kyB1T08/view?usp=share_link"
+            target="_blank"
+            class="pulse-btn social-icon resume-highlight"
+          >
+            <span class="resume-icon">Resume</span>
+          </a>
+        </div>
+        <button class="scrollToTopBtn">
+          <i class="lni lni-arrow-up scroll-btn--icon"></i>
+        </button>
+      </footer>
+      <!-- Social Icons End -->
+    </div>
   </body>
 </html>
