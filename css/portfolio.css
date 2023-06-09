@@ -972,6 +972,31 @@ Contact Me
   }
 }
 
+.hobby--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+}
+
+.hobby-card {
+  margin: 2rem 0;
+  width: 18rem;
+  border: 2px solid #8b008b;
+}
+
+.card-title {
+  color: #e6e8fa;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
 /* 
 ******************************************************
                     MEDIA QUERIES
@@ -1211,6 +1236,11 @@ Contact Me
   .working--progress-info {
     font-size: 1rem;
   }
+
+  .hobby--container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 /* 
@@ -1258,5 +1288,10 @@ MEDIA QUERIES: TABLET
   .about--img-container {
     position: relative;
     left: -30px;
+  }
+
+  .hobby--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
