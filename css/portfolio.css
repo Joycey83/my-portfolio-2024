@@ -1283,14 +1283,11 @@ Contact Me
     font-size: 2rem;
   }
 
-  .working--progress-info {
-    font-size: 1rem;
+  .working--progress-info,
+  .caption--info,
+  .feature-info {
+    font-size: 0.6rem;
   }
-
-  /* .hobby--container {
-    display: grid;
-    grid-template-columns: 1fr;
-  } */
 }
 
 /* 
