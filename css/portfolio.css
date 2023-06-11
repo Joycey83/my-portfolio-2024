@@ -50,7 +50,7 @@ h2 {
 }
 
 .hero--container {
-  margin: 3rem 0;
+  margin: 8rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -207,6 +207,14 @@ Feature Project
   color: aliceblue;
   font-size: 1.2rem;
   padding: 0.5rem 0;
+}
+
+.feature-paragraph a {
+  text-decoration: none;
+}
+
+.feature-paragraph a:hover {
+  color: #8b008b;
 }
 
 /* 
@@ -400,11 +408,6 @@ My Hobbies
 .card-body {
   padding: 0.5rem;
 }
-
-/* .baking--img {
-  display: block;
-  width: 100%; 
-} */
 
 /* 
   ==============
@@ -1069,12 +1072,16 @@ Contact Me
     font-size: 1rem;
   }
 
-  .footer--container {
-    margin: 0 4rem;
+  .feature--heading {
+    font-size: 1.5rem;
   }
 
-  .footer--scroll {
-    height: 200vmin;
+  .sub-feature--heading {
+    font-size: 1.2rem;
+  }
+
+  .footer--container {
+    margin: 0 4rem;
   }
 
   .footer-icons {
@@ -1314,5 +1321,9 @@ MEDIA QUERIES: TABLET
   .about--img-container {
     position: relative;
     left: -30px;
+  }
+
+  button.scrollToTopBtn.showBtn {
+    display: none;
   }
 }
