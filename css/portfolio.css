@@ -207,7 +207,7 @@ Feature Project
 
 .feature-paragraph {
   color: aliceblue;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0.5rem 0;
 }
 
@@ -1283,10 +1283,8 @@ Contact Me
     font-size: 2rem;
   }
 
-  .working--progress-info,
-  .caption--info,
-  .feature-info {
-    font-size: 0.6rem;
+  .feature-paragraph {
+    font-size: 0.7rem;
   }
 }
 
@@ -1339,5 +1337,11 @@ MEDIA QUERIES: TABLET
 
   button.scrollToTopBtn.showBtn {
     display: none;
+  }
+
+  .working--progress-info,
+  .caption--info,
+  .feature-info {
+    font-size: 0.8rem;
   }
 }
