@@ -99,10 +99,6 @@ h2 {
   align-items: center;
 }
 
-/* .home-btn svg {
-  vertical-align: middle;
-} */
-
 .home-btn {
   --thickness: 0.4rem;
   --roundness: 0.2rem;
@@ -191,6 +187,27 @@ h2 {
 Feature Project
 ====================
  */
+
+.feature--container {
+  margin-top: 4rem;
+}
+
+.sub-feature--heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #e6e8fa;
+}
+
+.project-one,
+.project-two {
+  padding: 0 2rem;
+}
+
+.feature-paragraph {
+  color: aliceblue;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
 
 /* 
   ============
@@ -606,7 +623,8 @@ My Hobbies
   padding: 2rem;
 }
 
-.project--img {
+.project--img,
+.feature--img {
   border-radius: 25px;
   border: 3px solid #8b008b;
   margin-top: 1.3rem;
