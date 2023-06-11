@@ -148,11 +148,14 @@
           <div class="row">
             <!-- PROJECT ONE -->
             <div class="col-lg-6 img--container">
-              <img
-                src="/images/responsive-mockup-1.png"
-                alt=""
-                class="img-fluid project--img"
-              />
+              <div class="caption--container">
+                <img
+                  src="/images/responsive-mockup-1.png"
+                  alt=""
+                  class="img-fluid project--img"
+                />
+                <p class="caption--info">SheCodes React Add-On Project</p>
+              </div>
             </div>
             <div class="col-lg-6">
               <div class="project--description">
@@ -244,11 +247,14 @@
 
             <!-- PROJECT TWO -->
             <div class="col-lg-6 img--container">
-              <img
-                src="/images/responsive-mockup-4.png"
-                alt=""
-                class="img-fluid project--img"
-              />
+              <div class="caption--container">
+                <img
+                  src="/images/responsive-mockup-4.png"
+                  alt=""
+                  class="img-fluid project--img"
+                />
+                <p class="caption--info">SheCodes Responsive Add-On Project</p>
+              </div>
             </div>
             <div class="col-lg-6">
               <div class="project--description">
@@ -333,11 +339,14 @@
 
             <!-- PROJECT THREE -->
             <div class="col-lg-6 img--container">
-              <img
-                src="/images/responsive-mockup-2.png"
-                alt=""
-                class="img-fluid project--img"
-              />
+              <div class="caption--container">
+                <img
+                  src="/images/responsive-mockup-2.png"
+                  alt=""
+                  class="img-fluid project--img"
+                />
+                <p class="caption--info">SheCodes Plus Project</p>
+              </div>
             </div>
             <div class="col-lg-6">
               <div class="project--description">
@@ -427,11 +436,14 @@
 
             <!-- PROJECT FOUR START -->
             <div class="col-lg-6 img--container">
-              <img
-                src="/images/responsive-mockup-3.png"
-                alt=""
-                class="img-fluid project--img"
-              />
+              <div class="caption--container">
+                <img
+                  src="/images/responsive-mockup-3.png"
+                  alt=""
+                  class="img-fluid project--img"
+                />
+                <p class="caption--info">SheCodes Plus Add-On Project</p>
+              </div>
             </div>
             <div class="col-lg-6">
               <div class="project--description">
@@ -522,51 +534,164 @@
       <!-- PROJECTS IN PROGRESS -->
       <section class="section section-center">
         <h2 class="working-progress--projects">My own projects</h2>
+        <div class="wrk-progress--container">
+          <div class="row">
+            <div class="col-lg-6 progress-project--one">
+              <h2 class="sub-project--heading">Panda Facts - React SPA</h2>
+              <div class="working-img--container">
+                <img
+                  src="/images/panda-mockup.png"
+                  alt="A mock up of my Panda Fact web page"
+                  class="img-fluid working--img"
+                />
+                <p class="working--progress-info">Work in progress...</p>
+              </div>
+              <p class="wrk-progress-info">
+                Created a React single page web application about Panda bears in
+                China. The web page will provide informative information about
+                Panda bears habitat,threats, fun facts and a video gallery.
+              </p>
 
-        <div class="row">
-          <div class="col-lg-4">
-            <h2 class="sub-project--heading">Panda Facts - React SPA</h2>
-            <div class="working-img--container">
-              <img
-                src="/images/panda-mockup.png"
-                alt="A mock up of my Panda Fact web page"
-                class="img-fluid working--img"
-              />
-              <p class="working--progress-info">Work in progress...</p>
+              <div class="project-btn--container progress-btn-container">
+                <div class="btn--container">
+                  <a
+                    href="https://pandafacts.netlify.app/"
+                    alt="Panda Facts React SPA"
+                    target="_blank"
+                    class="projects"
+                  >
+                    <button class="project-button">
+                      <h3>view project</h3>
+                      <svg>
+                        <defs>
+                          <filter id="glow">
+                            <fegaussianblur
+                              result="coloredBlur"
+                              stddeviation="5"
+                            ></fegaussianblur>
+                            <femerge>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="SourceGraphic"></femergenode>
+                            </femerge>
+                          </filter>
+                        </defs>
+                        <rect />
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+
+                <div class="btn--container">
+                  <a
+                    href="https://github.com/Joycey83/panda-facts"
+                    alt="Panda Facts SPA Github Repository"
+                    target="_blank"
+                    class="projects"
+                  >
+                    <button class="project-button">
+                      <h3>github</h3>
+                      <svg>
+                        <defs>
+                          <filter id="glow">
+                            <fegaussianblur
+                              result="coloredBlur"
+                              stddeviation="5"
+                            ></fegaussianblur>
+                            <femerge>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="SourceGraphic"></femergenode>
+                            </femerge>
+                          </filter>
+                        </defs>
+                        <rect />
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
             </div>
-            <p class="wrk-progress-info">
-              Created a React single page web application about Panda bears in
-              China. The web page will provide informative information about
-              Panda bears habitat,threats, fun facts and a video gallery.
-            </p>
-            <div class="working-progress-container">
-              <a
-                href="https://github.com/Joycey83/panda-facts"
-                alt="Panda Facts React SPA"
-                target="_blank"
-                class="working-progress-btn"
-              >
-                <button class="project-button">
-                  <h3>github</h3>
-                  <svg>
-                    <defs>
-                      <filter id="glow">
-                        <fegaussianblur
-                          result="coloredBlur"
-                          stddeviation="5"
-                        ></fegaussianblur>
-                        <femerge>
-                          <femergenode in="coloredBlur"></femergenode>
-                          <femergenode in="coloredBlur"></femergenode>
-                          <femergenode in="coloredBlur"></femergenode>
-                          <femergenode in="SourceGraphic"></femergenode>
-                        </femerge>
-                      </filter>
-                    </defs>
-                    <rect />
-                  </svg>
-                </button>
-              </a>
+
+            <!-- PERSONAL PROJECT TWO -->
+            <div class="col-lg-6 progress-project--two">
+              <h2 class="sub-project--heading">Avada Quizevra Quiz App</h2>
+              <div class="working-img--container">
+                <img
+                  src="/images/quiz-screenshot.png"
+                  alt="A mock up of my Harry Potter Quiz App"
+                  class="img-fluid working--img"
+                />
+                <p class="working--progress-info">Completed</p>
+              </div>
+              <p class="wrk-progress-info">
+                The Harry Potter series is undoubtedly a fan favorite all over
+                the world. Being a Potterhead myself, I decided to design and
+                bulid a fun Javascript based Harry Potter Quiz.
+              </p>
+              <div class="project-btn--container progress-btn-container">
+                <div class="btn--container">
+                  <a
+                    href="https://avada-quizevra.netlify.app/"
+                    alt="Harry Potter Quiz Application"
+                    target="_blank"
+                    class="projects"
+                  >
+                    <button class="project-button">
+                      <h3>view project</h3>
+                      <svg>
+                        <defs>
+                          <filter id="glow">
+                            <fegaussianblur
+                              result="coloredBlur"
+                              stddeviation="5"
+                            ></fegaussianblur>
+                            <femerge>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="SourceGraphic"></femergenode>
+                            </femerge>
+                          </filter>
+                        </defs>
+                        <rect />
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+
+                <div class="btn--container">
+                  <a
+                    href="https://github.com/Joycey83/Avada-Quizevra"
+                    alt="Harry Potter Quiz App Github Repository"
+                    target="_blank"
+                    class="projects"
+                  >
+                    <button class="project-button">
+                      <h3>github</h3>
+                      <svg>
+                        <defs>
+                          <filter id="glow">
+                            <fegaussianblur
+                              result="coloredBlur"
+                              stddeviation="5"
+                            ></fegaussianblur>
+                            <femerge>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="coloredBlur"></femergenode>
+                              <femergenode in="SourceGraphic"></femergenode>
+                            </femerge>
+                          </filter>
+                        </defs>
+                        <rect />
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
