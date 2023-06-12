@@ -189,7 +189,7 @@ Feature Project
  */
 
 .feature--container {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .sub-feature--heading {
@@ -202,7 +202,8 @@ Feature Project
 .project-two,
 .progress-project--one,
 .progress-project--two {
-  padding: 0 2rem;
+  padding: 0 1rem;
+  margin: 0;
 }
 
 .feature-paragraph {
@@ -230,12 +231,12 @@ Feature Project
    */
 
 .section {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .section-center {
   width: 90vw;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 1100px;
 }
 
 .section-divider {
@@ -1285,6 +1286,10 @@ Contact Me
 
   .feature-paragraph {
     font-size: 0.7rem;
+  }
+
+  .wrk-progress--container {
+    padding: 0 0.5rem;
   }
 }
 
