@@ -1,6 +1,14 @@
+/* 
+========================
+CSS VARIABLES
+========================
+
+*/
+
 :root {
   --times: 0.05s;
   --letter-spacing: 2px;
+  --bg-color: #000;
 }
 
 * {
@@ -38,7 +46,7 @@ h2 {
  */
 
 .bg-color {
-  background-color: #000;
+  background-color: var(--bg-color);
 }
 
 .bg--img {
@@ -281,7 +289,7 @@ nav a {
 }
 
 .about-bg {
-  background: #000;
+  background: var(--bg-color);
 }
 
 .about-heading,
@@ -935,7 +943,7 @@ Contact Me
 ===================
  */
 .scrollToTopBtn {
-  background-color: black;
+  background-color: var(--bg-color);
   border: 3px solid green;
   border-radius: 50%;
   font-size: 18px;
