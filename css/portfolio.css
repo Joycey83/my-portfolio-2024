@@ -113,7 +113,7 @@ h2 {
 .home-btn {
   --thickness: 0.4rem;
   --roundness: 0.2rem;
-  --color: white;
+  --color: #fff;
   --opacity: 0.6;
   -webkit-backdrop-filter: blur(100px);
   backdrop-filter: blur(100px);
@@ -280,7 +280,7 @@ nav .nav-link {
 }
 
 .nav-link a:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--color-white);
 }
 
 .nav-link.active a {
@@ -364,7 +364,7 @@ nav a {
 .resume-text {
   position: relative;
   right: 15px;
-  color: #fff;
+  color: var(--color-white);
   text-transform: uppercase;
 }
 
@@ -392,7 +392,7 @@ nav a {
 .project-text {
   position: relative;
   right: 20px;
-  color: #fff;
+  color: var(--color-white);
   text-transform: uppercase;
 }
 
@@ -863,8 +863,10 @@ Contact Me
 }
 
 .contact-title {
-  text-shadow: 2px 0 #522d80, -2px 0 #522d80, 0 3px #522d80, 0 -3px #fff,
-    3px 3px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  text-shadow: 2px 0 #522d80, -2px 0 #522d80, 0 3px #522d80,
+    0 -3px var(--color-white), 3px 3px var(--color-white),
+    -1px -1px var(--color-white), 1px -1px var(--color-white),
+    -1px 1px var(--color-white);
   text-align: center;
   font-size: 5rem;
   font-weight: 800;
@@ -998,7 +1000,7 @@ Contact Me
 }
 
 .social-icon:hover {
-  color: #fff;
+  color: var(--color-white);
 }
 
 .social-icon i {
