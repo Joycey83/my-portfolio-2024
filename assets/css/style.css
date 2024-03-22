@@ -167,18 +167,7 @@ p {
   color: var(--color-white);
   background: var(--clr-black);
 }
-.btn-white {
-  color: var(--clr-light-4);
-  border-color: var(--clr-light-4);
-  font-size: 1.4rem;
-  border-radius: 0;
-  padding: 1.2rem 1.2rem;
-}
-.btn:hover {
-  background: var(--clr-light-5);
-  color: var(--clr-secondary);
-  cursor: var(--custom-cursor);
-}
+
 /* section */
 .section {
   padding-bottom: 5rem;
@@ -211,6 +200,19 @@ p {
 
 .btn-container {
   margin-top: 2.8rem;
+}
+
+.btn-white {
+  color: var(--clr-light-4);
+  border-color: var(--clr-light-4);
+  font-size: 1.4rem;
+  border-radius: 0;
+  padding: 1.2rem 1.2rem;
+}
+.btn-white:hover {
+  background: var(--clr-light-5);
+  color: var(--clr-secondary);
+  cursor: var(--custom-cursor);
 }
 /*
   =============== 
