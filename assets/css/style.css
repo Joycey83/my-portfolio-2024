@@ -198,6 +198,11 @@ p {
     1px -1px var(--color-white), -1px 1px var(--color-white);
 }
 
+.job-title {
+  font-family: var(--ff-secondary);
+  color: var(--clr-paragraph-1);
+  font-size: 1.3rem;
+}
 /*
   =============== 
   Animated Scroll
@@ -362,6 +367,9 @@ footer p {
   .home-title {
     font-size: 5.4rem;
   }
+  .job-title {
+    font-size: 3rem;
+  }
   .section-center {
     width: 95vw;
   }
@@ -415,5 +423,9 @@ footer p {
 
   .home-title {
     font-size: 4.1rem;
+  }
+
+  .job-title {
+    font-size: 2.2rem;
   }
 }
