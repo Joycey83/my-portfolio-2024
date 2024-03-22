@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Rubik:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/6a1c047190.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- Lineicons CDN -->
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="/assets/js/script.js" defer></script>
+    <script src="assets/js/movingParticle.js" defer></script>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/favicon.ico.png"
+    />
+    <title>Joyce Cheung: Portfolio</title>
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header container-->
+          <div class="nav-header">
+            <a href="index.html">
+              <img
+                src="assets/images/joyce-logo-white.png"
+                class="logo"
+                ="My personal logo"
+              />
+            </a>
+            <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+          </div>
+          <!-- Nav links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="nav-link scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="nav-link scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#project" class="nav-link scroll-link">project</a>
+              </li>
+              <li>
+                <a href="#certificates" class="nav-link scroll-link"
+                  >Certificates</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="nav-link scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner -->
+      <div class="banner">
+        <div class="particle-container"><canvas id="canvas1"></canvas></div>
+        <div class="container">
+          <h1 class="home-title">Joyce Cheung</h1>
+          <h2>Junior web developer</h2>
+
+          <!-- Add my Updated CV -->
+          <a href="#" class="scroll-link btn btn-white">Download CV</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about</h2>
+      </div>
+    </section>
+    <!-- project -->
+    <section id="project" class="section">
+      <div class="title">
+        <h2 class="project-heading">my projects</h2>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="title">
+        <h2 class="certificates-heading">my certificates</h2>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section">
+      <div class="title">
+        <h2>contact me</h2>
+      </div>
+    </section>
+    <footer class="section">
+      <p>
+        copyright &copy; Joyce Cheung
+        <span id="date"></span> .all rights reserved
+      </p>
+    </footer>
+    <!-- back to top button -->
+    <a href="#home" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </body>
+</html>
