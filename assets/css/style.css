@@ -23,6 +23,7 @@ Variables
   --clr-light-4: #eeeaf2;
 
   /* lighter shades of main #bfff00 color */
+  --clr-light-5: #d9ff66;
 
   /* darkest grey - used for headings */
 
@@ -157,23 +158,24 @@ p {
   display: inline-block;
   transition: var(--transition);
   font-size: 0.875rem;
-  border: 2px solid var(--clr-black);
+  border: 2px solid var(--color-white);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
 .btn:hover {
-  color: var(--clr-white);
+  color: var(--color-white);
   background: var(--clr-black);
 }
 .btn-white {
   color: var(--clr-light-4);
   border-color: var(--clr-light-4);
+  font-size: 1.4rem;
   border-radius: 0;
-  padding: 0.5rem 1rem;
+  padding: 1.2rem 1.2rem;
 }
 .btn:hover {
-  background: var(--clr-light-4);
+  background: var(--clr-light-5);
   color: var(--clr-secondary);
   cursor: var(--custom-cursor);
 }
