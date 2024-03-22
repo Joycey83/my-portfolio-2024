@@ -20,10 +20,11 @@ Variables
   --clr-light-1: #63428d;
   --clr-light-2: #755799;
   --clr-light-3: #866ca6;
-  --clr-light-4: #eeeaf2;
+  --clr-light-4: #9781b3;
+  --clr-light-5: #eeeaf2;
 
   /* lighter shades of main #bfff00 color */
-  --clr-light-5: #d9ff66;
+  --clr-light-6: #d9ff66;
 
   /* lighter shades #522d80 used for paragraphs */
   --clr-paragraph-1: #dcd5e6;
@@ -201,14 +202,14 @@ p {
 }
 
 .btn-white {
-  color: var(--clr-light-4);
-  border-color: var(--clr-light-4);
+  color: var(--clr-light-5);
+  border-color: var(--clr-light-5);
   font-size: 1.4rem;
   border-radius: 0;
   padding: 1.2rem 1.2rem;
 }
 .btn-white:hover {
-  background: var(--clr-light-5);
+  background: var(--clr-light-6);
   color: var(--clr-black);
   cursor: var(--custom-cursor);
 }
@@ -235,7 +236,7 @@ nav {
   color: var(--clr-dark-2);
 }
 .fixed-nav .links .nav-link:hover {
-  color: var(--clr-light-1);
+  color: var(--clr-light-4);
 }
 
 .nav-header {
@@ -343,7 +344,7 @@ footer p {
   display: grid;
   place-items: center;
   border-radius: var(--radius);
-  color: var(--clr-light-4);
+  color: var(--clr-light-5);
   animation: bounce 2s ease-in-out infinite;
 
   visibility: hidden;
@@ -409,7 +410,7 @@ footer p {
   }
   .links a {
     background: transparent;
-    color: var(--clr-light-4);
+    color: var(--clr-light-5);
     font-size: 1.3rem;
     text-transform: capitalize;
     letter-spacing: var(--letter-spacing);
