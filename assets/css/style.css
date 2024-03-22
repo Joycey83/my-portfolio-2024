@@ -20,12 +20,15 @@ Variables
   --clr-light-1: #63428d;
   --clr-light-2: #755799;
   --clr-light-3: #866ca6;
+  --clr-light-4: #eeeaf2;
+
   /* lighter shades of main #bfff00 color */
 
   /* darkest grey - used for headings */
 
   /* lighter shades #522d80 used for paragraphs */
   --clr-paragraph-1: #dcd5e6;
+  --clr-paragraph-2: #eeeaf2;
 
   --color-white: #fff;
 
@@ -164,13 +167,13 @@ p {
   background: var(--clr-black);
 }
 .btn-white {
-  color: var(--color-white);
-  border-color: var(--color-white);
+  color: var(--clr-light-4);
+  border-color: var(--clr-light-4);
   border-radius: 0;
   padding: 0.5rem 1rem;
 }
 .btn:hover {
-  background: var(--color-white);
+  background: var(--clr-light-4);
   color: var(--clr-secondary);
   cursor: var(--custom-cursor);
 }
