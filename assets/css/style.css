@@ -203,6 +203,10 @@ p {
   color: var(--clr-paragraph-1);
   font-size: 1.3rem;
 }
+
+.btn-container {
+  margin-top: 0.35rem;
+}
 /*
   =============== 
   Animated Scroll
