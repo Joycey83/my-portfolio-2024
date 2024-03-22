@@ -25,15 +25,13 @@ Variables
   /* lighter shades of main #bfff00 color */
   --clr-light-5: #d9ff66;
 
-  /* darkest grey - used for headings */
-
   /* lighter shades #522d80 used for paragraphs */
   --clr-paragraph-1: #dcd5e6;
   --clr-paragraph-2: #eeeaf2;
 
   --color-white: #fff;
 
-  --clr-black: #222;
+  --clr-black: #000000;
   --ff-primary: "Rubik", sans-serif;
   --ff-secondary: "Oswald", sans-serif;
   --transition: all 0.4s linear;
@@ -66,7 +64,7 @@ html {
 }
 body {
   font-family: var(--ff-secondary);
-  background: #000;
+  background: var(--clr-black);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -183,7 +181,7 @@ p {
   font-family: var(--ff-primary);
   font-weight: 800;
   font-size: 2.2rem;
-  color: #000;
+  color: var(--clr-black);
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing);
   text-shadow: 2px 0 var(--clr-main-1), -2px 0 var(--clr-main-1),
@@ -211,7 +209,7 @@ p {
 }
 .btn-white:hover {
   background: var(--clr-light-5);
-  color: var(--clr-secondary);
+  color: var(--clr-black);
   cursor: var(--custom-cursor);
 }
 /*
@@ -221,7 +219,6 @@ p {
   */
 /* navbar */
 nav {
-  /* background: #000; */
   padding: 1rem 1.5rem;
 }
 /* fixed nav */
@@ -230,7 +227,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background: #000;
+  background: var(--clr-black);
   box-shadow: var(--light-shadow);
   z-index: 99999;
 }
@@ -328,7 +325,7 @@ footer {
   padding: 5rem 1rem;
 }
 footer p {
-  color: var(--color-white);
+  color: var(--clr-light-4);
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -346,7 +343,7 @@ footer p {
   display: grid;
   place-items: center;
   border-radius: var(--radius);
-  color: var(--color-white);
+  color: var(--clr-light-4);
   animation: bounce 2s ease-in-out infinite;
 
   visibility: hidden;
@@ -412,7 +409,7 @@ footer p {
   }
   .links a {
     background: transparent;
-    color: var(--color-white);
+    color: var(--clr-light-4);
     font-size: 1.3rem;
     text-transform: capitalize;
     letter-spacing: var(--letter-spacing);
