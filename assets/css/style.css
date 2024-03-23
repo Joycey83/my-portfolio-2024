@@ -32,6 +32,7 @@ Variables
 
   /* Accent Color */
   --accent-1: #7d007d;
+  --accent-2: #530053;
 
   --color-white: #fff;
 
@@ -235,10 +236,11 @@ nav {
   z-index: 99999;
 }
 .fixed-nav .links .nav-link {
+  font-size: 1.4rem;
   color: var(--clr-dark-2);
 }
 .fixed-nav .links .nav-link:hover {
-  color: var(--clr-light-4);
+  color: var(--accent-2);
 }
 
 .nav-header {
@@ -271,19 +273,9 @@ nav {
   height: 200px;
 }
 /* NAVIGATION LINK */
-/* .links .nav-link {
-  font-size: 1.1rem;
-  color: var(--clr-dark-3);
-  text-transform: capitalize;
-  letter-spacing: var(--letter-spacing);
-  display: block;
-  transition: var(--transition);
-  font-weight: bold;
-  padding: 0.75rem 0;
-} */
 
 .links .nav-link {
-  color: var(--clr-light-5);
+  color: var(--accent-2);
   font-size: 1.3rem;
   text-transform: capitalize;
   letter-spacing: var(--letter-spacing);
@@ -319,7 +311,15 @@ header {
 
 /* sections and title */
 
-.title h2 {
+.title {
+  margin-top: 1rem;
+}
+
+.about-heading,
+.project-heading,
+.certificates-heading,
+.contact-heading {
+  color: var(--clr-dark-1);
   text-align: center;
   text-transform: uppercase;
 }
