@@ -101,7 +101,6 @@ h1 {
 }
 h2 {
   font-size: 2.2rem;
-  color: #dcd5e6;
 }
 h3 {
   font-size: 1.25rem;
@@ -111,7 +110,6 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: #dcd5e6;
 }
 
 @media screen and (min-width: 800px) {
@@ -272,7 +270,7 @@ nav {
 .show-links {
   height: 200px;
 }
-.links a {
+.links .nav-link {
   font-size: 1.1rem;
   color: var(--clr-dark-3);
   text-transform: capitalize;
@@ -281,9 +279,6 @@ nav {
   transition: var(--transition);
   font-weight: bold;
   padding: 0.75rem 0;
-}
-.links a:hover {
-  color: var(--clr-light-2);
 }
 
 /* hero Section*/
@@ -312,9 +307,7 @@ header {
   text-align: center;
   text-transform: uppercase;
 }
-.title span {
-  color: var(--clr-secondary);
-}
+
 #about,
 #project,
 #certificates,
@@ -322,9 +315,6 @@ header {
   height: 80vh;
 }
 
-#services {
-  background-color: var(--clr-white);
-}
 footer {
   background: var(--clr-dark-3);
   padding: 5rem 1rem;
@@ -411,21 +401,6 @@ footer p {
   }
   .links {
     display: flex;
-  }
-  .links a {
-    background: transparent;
-    color: var(--clr-light-5);
-    font-size: 1.3rem;
-    text-transform: capitalize;
-    letter-spacing: var(--letter-spacing);
-    display: block;
-    transition: var(--transition);
-    margin: 0 0.5rem;
-    font-weight: bold;
-    padding: 0;
-  }
-  .links a:hover {
-    color: var(--clr-main-2);
   }
 }
 
