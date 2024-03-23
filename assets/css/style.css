@@ -32,7 +32,7 @@ Variables
 
   /* Accent Color */
   --accent-1: #7d007d;
-  --accent-2: #530053;
+  --accent-2: #610061;
 
   --color-white: #fff;
 
@@ -276,7 +276,7 @@ nav {
 
 .links .nav-link {
   color: var(--accent-2);
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
   letter-spacing: var(--letter-spacing);
   display: block;
