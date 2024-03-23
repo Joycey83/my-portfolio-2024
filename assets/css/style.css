@@ -175,11 +175,6 @@ p {
   padding-bottom: 5rem;
 }
 
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: var(--max-width);
-}
 /* Custom classes Mobile first*/
 .home-title {
   font-family: var(--ff-primary);
