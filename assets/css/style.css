@@ -236,6 +236,7 @@ nav {
 }
 .fixed-nav .links .nav-link {
   color: var(--clr-dark-2);
+  padding: 0.75rem 0;
 }
 .fixed-nav .links .nav-link:hover {
   color: var(--clr-light-4);
@@ -270,7 +271,8 @@ nav {
 .show-links {
   height: 200px;
 }
-.links .nav-link {
+/* NAVIGATION LINK */
+/* .links .nav-link {
   font-size: 1.1rem;
   color: var(--clr-dark-3);
   text-transform: capitalize;
@@ -279,6 +281,21 @@ nav {
   transition: var(--transition);
   font-weight: bold;
   padding: 0.75rem 0;
+} */
+
+.links .nav-link {
+  color: var(--clr-light-5);
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  letter-spacing: var(--letter-spacing);
+  display: block;
+  transition: var(--transition);
+  margin: 0 0.5rem;
+  font-weight: bold;
+  padding: 0;
+}
+.links .nav-link:hover {
+  color: var(--clr-main-2);
 }
 
 /* hero Section*/
