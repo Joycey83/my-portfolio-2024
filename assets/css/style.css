@@ -211,6 +211,11 @@ p {
   color: var(--clr-black);
   cursor: var(--custom-cursor);
 }
+
+/* ================
+    About section
+  ================== */
+
 /*
   =============== 
   Animated Scroll
@@ -306,10 +311,6 @@ header {
 
 /* sections and title */
 
-.title {
-  margin-top: 1rem;
-}
-
 .about-heading,
 .project-heading,
 .certificates-heading,
@@ -317,6 +318,7 @@ header {
   color: var(--clr-dark-1);
   text-align: center;
   text-transform: uppercase;
+  margin-top: 1rem;
 }
 
 #about,
