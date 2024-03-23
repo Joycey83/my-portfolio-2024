@@ -30,8 +30,12 @@ Variables
   --clr-paragraph-1: #dcd5e6;
   --clr-paragraph-2: #eeeaf2;
 
+  /* Accent Color */
+  --accent-1: #7d007d;
+
   --color-white: #fff;
 
+  /* Background color */
   --clr-black: #000000;
   --ff-primary: "Rubik", sans-serif;
   --ff-secondary: "Oswald", sans-serif;
@@ -326,7 +330,7 @@ footer {
   padding: 5rem 1rem;
 }
 footer p {
-  color: var(--clr-light-4);
+  color: var(--clr-black);
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
