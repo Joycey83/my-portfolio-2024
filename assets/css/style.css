@@ -215,6 +215,12 @@ p {
 /* ================
     About section
   ================== */
+.about-section {
+  /* max-width: 1175px; */
+  margin: 0 auto;
+  padding: 1.2rem 0;
+  background-color: #311b4d98;
+}
 
 /*
   =============== 
