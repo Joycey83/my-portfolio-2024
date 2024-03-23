@@ -418,6 +418,10 @@ footer p {
   .links {
     display: flex;
   }
+
+  .links .nav-link {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
