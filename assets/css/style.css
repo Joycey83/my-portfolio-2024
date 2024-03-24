@@ -391,7 +391,7 @@ header {
 #project,
 #certificates,
 #contact {
-  height: 150vh;
+  height: 160vh;
 }
 
 footer {
@@ -404,6 +404,21 @@ footer p {
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   margin-bottom: 0;
+}
+
+.instagram-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.23rem;
+}
+
+.social-icon {
+  color: var(--clr-dark-1);
+  font-size: 1.1rem;
+}
+
+.social-link {
+  color: var(--clr-light-3);
 }
 
 .top-link {
@@ -467,7 +482,7 @@ footer p {
   #project,
   #certificates,
   #contact {
-    height: 115vh;
+    height: 118vh;
   }
 }
 
