@@ -224,12 +224,16 @@ p {
 .about--img-container {
   width: 300px;
   height: 200px;
-  margin-left: 1rem;
+  margin: 1rem auto;
 }
 .about--img {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+article {
+  padding: 1.2rem 1.1rem;
 }
 
 /*
