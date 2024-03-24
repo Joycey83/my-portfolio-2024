@@ -75,22 +75,3 @@ scrollLinks.forEach(function (link) {
     linksContainer.style.height = 0;
   });
 });
-
-// JavaScript for smooth scrolling
-// const scrollLinks = document.querySelectorAll(".scroll-link");
-
-// scrollLinks.forEach((link) => {
-//   link.addEventListener("click", (e) => {
-//     e.preventDefault();
-
-//     const id = link.getAttribute("href").slice(1);
-//     const section = document.getElementById(id);
-//     const offset = section.offsetTop;
-
-//     window.scrollTo({
-//       left: 0,
-//       top: offset,
-//       behavior: "smooth",
-//     });
-//   });
-// });

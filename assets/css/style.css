@@ -424,6 +424,13 @@ footer p {
     width: 320px;
     height: 200px;
   }
+
+  #about,
+  #project,
+  #certificates,
+  #contact {
+    height: 100vh;
+  }
 }
 
 @media screen and (min-width: 800px) {
