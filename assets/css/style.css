@@ -215,9 +215,9 @@ p {
 /* ================
     About section
   ================== */
+
 .about-section {
-  margin: 0 auto;
-  padding: 0.35rem 0;
+  padding: 0.25rem 0;
   background-color: #311b4d7c;
 }
 
@@ -233,7 +233,7 @@ p {
 }
 
 article {
-  padding: 1.2rem 1.1rem;
+  margin-bottom: 0.2rem;
 }
 
 .about-sub-heading {
@@ -243,6 +243,7 @@ article {
 
 .about-info {
   color: var(--color-white);
+  font-size: 1.1rem;
 }
 
 /*
@@ -354,7 +355,7 @@ header {
 #project,
 #certificates,
 #contact {
-  height: 80vh;
+  height: 120vh;
 }
 
 footer {
@@ -415,9 +416,9 @@ footer p {
   .job-title {
     font-size: 3rem;
   }
-  .section-center {
+  /* .section-center {
     width: 95vw;
-  }
+  } */
 
   .about--img-container {
     width: 320px;
@@ -473,5 +474,9 @@ footer p {
 
   .job-title {
     font-size: 2.2rem;
+  }
+
+  .about-info {
+    font-size: 0.75rem;
   }
 }
