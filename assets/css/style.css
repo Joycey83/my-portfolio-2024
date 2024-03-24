@@ -241,9 +241,43 @@ article {
   font-size: 1.2rem;
 }
 
+.about-info-container {
+  margin: 1.2rem 1.3rem;
+}
+
 .about-info {
   color: var(--color-white);
   font-size: 1.1rem;
+}
+
+.followers {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.follower-imgs {
+  display: flex;
+}
+
+.follower-imgs img {
+  height: 3.8rem;
+  border-radius: 50%;
+  margin-left: -1.6rem;
+  border: 3px solid #0acb27;
+}
+
+.followers-text {
+  color: var(--clr-paragraph-1);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.followers-text span {
+  color: yellowgreen;
+  font-weight: 700;
 }
 
 /*
@@ -342,6 +376,7 @@ header {
 /* sections and title */
 
 .about-heading,
+.skills-heading,
 .project-heading,
 .certificates-heading,
 .contact-heading {
@@ -352,10 +387,11 @@ header {
 }
 
 #about,
+#skills-tech,
 #project,
 #certificates,
 #contact {
-  height: 120vh;
+  height: 150vh;
 }
 
 footer {
@@ -418,11 +454,16 @@ footer p {
   }
 
   .about--img-container {
-    width: 320px;
-    height: 200px;
+    max-width: 60%;
+    margin-top: 1rem;
+  }
+
+  .about--img {
+    margin: 3.8rem auto;
   }
 
   #about,
+  #skills-tech,
   #project,
   #certificates,
   #contact {
@@ -459,13 +500,6 @@ footer p {
     padding: 0;
   }
 }
-
-/* @media (max-width: 500px) {
-  .about--img-container {
-    width: 100%;
-    height: auto;
-  }
-} */
 
 @media screen and (max-width: 768px) {
   .container p {
