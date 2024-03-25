@@ -495,11 +495,14 @@ header {
 }
 
 #about,
-#skills-tech,
 #project,
 #certificates,
 #contact {
   height: 160vh;
+}
+
+#skills-tech {
+  height: 100vh;
 }
 
 footer {
@@ -586,11 +589,14 @@ footer p {
   }
 
   #about,
-  #skills-tech,
   #project,
   #certificates,
   #contact {
     height: 125vh;
+  }
+
+  #skills-tech {
+    height: 90vh;
   }
   .about-info,
   .skills-text {
