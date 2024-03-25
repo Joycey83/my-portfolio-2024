@@ -313,6 +313,40 @@ article {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+.icon-list {
+  margin: 0;
+  padding-inline: 0;
+  list-style: none;
+}
+
+.icon-list li {
+  padding: 1rem;
+  color: #dcd5e6;
+  background: #222;
+  border-radius: 0.25rem;
+  box-shadow: rgba(200, 200, 180, 0.5) 0px 2px 8px 0px;
+}
+
+.social-container {
+  width: 150px;
+  height: 150px;
+  background-color: #86b300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+}
+
+.social-container i {
+  font-size: 4rem;
+  color: #dcd5e6;
+}
+
+.skill--icon {
+  font-size: 4rem;
+  color: #dcd5e6;
+}
 /*
   =============== 
   Animated Scroll
