@@ -294,6 +294,15 @@ article {
   padding: 0.35rem;
 }
 
+.skills-section {
+  display: grid;
+  min-block-size: 100vh;
+  place-content: center;
+  font-family: var(--ff-secondary);
+  font-size: 1.125rem;
+  background-color: var(--clr-black);
+}
+
 /*
   =============== 
   Animated Scroll
