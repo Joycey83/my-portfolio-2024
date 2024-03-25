@@ -294,9 +294,9 @@ article {
   padding: 0.35rem;
 }
 
-.skills-section {
+.scroller-container {
   display: grid;
-  min-block-size: 100vh;
+  min-block-size: 40vh;
   place-content: center;
   font-family: var(--ff-secondary);
   font-size: 1.125rem;
