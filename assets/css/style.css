@@ -496,10 +496,11 @@ footer p {
   #project,
   #certificates,
   #contact {
-    height: 118vh;
+    height: 125vh;
   }
+  .about-info,
   .skills-text {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 }
 
