@@ -280,6 +280,20 @@ article {
   font-weight: 700;
 }
 
+/* ================
+    Skills section
+  ================== */
+.skills-text-container {
+  margin: 1.2rem;
+  padding: 0.75rem 0.35rem;
+}
+
+.skills-text {
+  font-size: 0.85rem;
+  color: var(--clr-paragraph-2);
+  padding: 0.35rem;
+}
+
 /*
   =============== 
   Animated Scroll
@@ -483,6 +497,9 @@ footer p {
   #certificates,
   #contact {
     height: 118vh;
+  }
+  .skills-text {
+    font-size: 1.25rem;
   }
 }
 
