@@ -331,7 +331,7 @@ article {
 .skill-icon-container {
   width: 150px;
   height: 150px;
-  background-color: #86b300;
+  background-color: var(--clr-dark-6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -340,12 +340,12 @@ article {
 
 .skill-icon-container i {
   font-size: 4rem;
-  color: #dcd5e6;
+  color: var(--clr-dark-3);
 }
 
 .skill--icon {
   font-size: 4rem;
-  color: #dcd5e6;
+  color: var(--clr-paragraph-1);
 }
 
 .scroller[data-animated="true"] {
