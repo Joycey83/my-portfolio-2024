@@ -328,7 +328,7 @@ article {
   box-shadow: rgba(200, 200, 180, 0.5) 0px 2px 8px 0px;
 }
 
-.social-container {
+.skill-icon-container {
   width: 150px;
   height: 150px;
   background-color: #86b300;
@@ -338,7 +338,7 @@ article {
   border-radius: 0.25rem;
 }
 
-.social-container i {
+.skill-icon-container i {
   font-size: 4rem;
   color: #dcd5e6;
 }
