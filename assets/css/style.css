@@ -283,12 +283,14 @@ article {
 /* ================
     Skills section
   ================== */
-.skills-text-container {
+.skills-text-container,
+.project-text-container {
   margin: 1.2rem;
-  padding: 0.75rem 0.35rem;
+  padding: 0.85rem 0.35rem;
 }
 
-.skills-text {
+.skills-text,
+.project-text {
   font-size: 0.85rem;
   color: var(--clr-paragraph-2);
   padding: 0.35rem;
