@@ -170,6 +170,12 @@ p {
   background: var(--clr-black);
 }
 
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
 /* section */
 /* .section {
   padding-bottom: 5rem;
@@ -216,7 +222,8 @@ p {
     About section
   ================== */
 
-.about-section {
+.about-section,
+.project-section {
   padding: 0.25rem 0;
   background-color: #311b4d7c;
 }
