@@ -397,6 +397,38 @@ article {
     transform: translate(calc(-50% - 0.5rem));
   }
 }
+
+/* Project Section */
+.about {
+  background: #eeeaf2;
+  border-radius: var(--radius);
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.btn-container {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.tab-btn:nth-child(1) {
+  border-top-left-radius: var(--radius);
+}
+.tab-btn:nth-child(2) {
+  border-top-right-radius: var(--radius);
+}
+.tab-btn {
+  padding: 1rem 0;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  display: block;
+  background: #b6a7ca;
+  color: #222;
+  cursor: pointer;
+  transition: var(--transition);
+  letter-spacing: var(--spacing);
+}
 /*
   =============== 
   Animated Scroll
@@ -610,6 +642,13 @@ footer p {
   .about-info,
   .skills-text {
     font-size: 1.2rem;
+  }
+
+  .about-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
   }
 }
 
