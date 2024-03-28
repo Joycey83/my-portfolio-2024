@@ -402,7 +402,7 @@ article {
   /* height: 20rem; */
 }
 .project-center {
-  /* width: 90vw; */
+  width: 90vw;
   margin: 0 0.5rem;
 }
 
@@ -604,7 +604,6 @@ header {
   height: 150vh;
 }
 
-#project,
 #certificates,
 #contact {
   height: 160vh;
@@ -729,6 +728,7 @@ footer p {
   }
 
   .about-center {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
@@ -778,6 +778,10 @@ footer p {
     border-radius: 0;
     padding: 1.3rem 1.2rem;
   }
+
+  .about-center {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -816,6 +820,13 @@ footer p {
   #skills-tech {
     height: 50vh;
   }
+
+  #project {
+    height: 220vh;
+  }
+  .about-center {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -824,6 +835,10 @@ footer p {
   }
   .container {
     top: 180px;
+  }
+
+  .about-center {
+    margin: 0 auto;
   }
 
   #about {
@@ -836,5 +851,9 @@ footer p {
 
   #skills-tech {
     height: 100vh;
+  }
+
+  #project {
+    height: 245vh;
   }
 }
