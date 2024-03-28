@@ -498,7 +498,98 @@ article {
   font-size: 2rem;
   color: #739900;
 }
+/* CERTIFICATE SECTION */
+.certificate--container {
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: #9781b3;
+  padding: 2.4rem;
+  border-radius: 0.25rem;
+}
 
+.border--img {
+  border: 70px solid;
+  border-image: url(asset/images/polaroid-border-css.png) 300;
+}
+
+.certificate--inner-img {
+  position: relative;
+}
+
+.certificate--outer-img:hover img {
+  opacity: 0.2;
+  cursor: url(asset/images/icons8-hand-cursor-64.png), default;
+}
+
+.certificate--outer-img:hover .view-btn {
+  opacity: 1;
+}
+
+.view-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.view-certificate {
+  /* background-color: #739900; */
+  background: transparent;
+  color: #000;
+  display: block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.view-certificate:hover {
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1.05);
+  cursor: url(asset/images/icons8-hand-cursor-64.png), default;
+}
+
+/* .cert-text {
+  position: relative;
+  top: -20px;
+  right: 20px;
+} */
+
+.btn {
+  text-transform: uppercase;
+  color: black;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: 0.3s ease;
+  font-size: 0.925rem;
+  border: 2px solid #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+.btn:hover {
+  color: #fff;
+  background: #000;
+}
+
+.cert-btn {
+  border: none;
+  padding: 0.85rem 1.1rem;
+  font-size: 0.925rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+}
+
+.cert-btn:hover {
+  cursor: url(asset/images/icons8-hand-cursor-64.png), default;
+}
 /*
   =============== 
   Animated Scroll
