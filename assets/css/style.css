@@ -142,7 +142,6 @@ p {
 
 .particle-container {
   width: 100%;
-  /* height: 3vh; */
 }
 
 .logo:hover {
@@ -175,11 +174,6 @@ p {
   margin: 0 auto;
   max-width: var(--max-width);
 }
-
-/* section */
-/* .section {
-  padding-bottom: 5rem;
-} */
 
 /* Custom classes Mobile first*/
 .home-title {
@@ -409,8 +403,7 @@ article {
 }
 .project-center {
   /* width: 90vw; */
-  margin: 0 auto;
-  max-width: 1170px;
+  margin: 0 0.5rem;
 }
 
 .about {
@@ -418,7 +411,9 @@ article {
   border-radius: var(--radius);
   display: grid;
   grid-template-rows: auto 1fr;
+  margin: 1rem;
 }
+
 .btn--container {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
@@ -588,7 +583,7 @@ header {
 
 .container {
   position: absolute;
-  top: 250px;
+  top: 180px;
   z-index: 10000;
 }
 
@@ -605,7 +600,10 @@ header {
   margin-top: 1rem;
 }
 
-#about,
+#about {
+  height: 150vh;
+}
+
 #project,
 #certificates,
 #contact {
@@ -738,8 +736,6 @@ footer p {
   }
 }
 
-/* PROJECT CSS CODE FOR NOW */
-
 @media screen and (min-width: 800px) {
   nav {
     background: transparent;
@@ -768,9 +764,23 @@ footer p {
   .links .nav-link {
     padding: 0;
   }
+
+  .home-title {
+    font-size: 5.1rem;
+  }
+
+  .job-title {
+    font-size: 2.9rem;
+  }
+
+  .btn-white {
+    font-size: 1.6rem;
+    border-radius: 0;
+    padding: 1.3rem 1.2rem;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .container p {
     max-width: 40rem;
   }
@@ -784,6 +794,47 @@ footer p {
   }
 
   .about-info {
+    font-size: 2rem;
+  }
+
+  .home-title {
+    font-size: 5rem;
+  }
+
+  .container {
+    top: 360px;
+  }
+
+  .links .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .fixed-nav .links .nav-link {
+    font-size: 1.2rem;
+  }
+
+  #skills-tech {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-title {
+    font-size: 2.2rem;
+  }
+  .container {
+    top: 180px;
+  }
+
+  #about {
+    height: 165vh;
+  }
+
+  .about-info {
     font-size: 0.75rem;
+  }
+
+  #skills-tech {
+    height: 100vh;
   }
 }
