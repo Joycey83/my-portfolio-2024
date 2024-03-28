@@ -509,7 +509,7 @@ article {
 
 .border--img {
   border: 70px solid;
-  border-image: url(asset/images/polaroid-border-css.png) 300;
+  border-image: url(assets/images/polaroid-border-css.png) 300;
 }
 
 .certificate--inner-img {
@@ -518,7 +518,7 @@ article {
 
 .certificate--outer-img:hover img {
   opacity: 0.2;
-  cursor: url(asset/images/icons8-hand-cursor-64.png), default;
+  cursor: url(assets/images/icons8-hand-cursor-64.png), default;
 }
 
 .certificate--outer-img:hover .view-btn {
@@ -551,7 +551,7 @@ article {
   text-decoration: none;
   color: #fff;
   transform: scale(1.05);
-  cursor: url(asset/images/icons8-hand-cursor-64.png), default;
+  cursor: url(assets/images/icons8-hand-cursor-64.png), default;
 }
 
 /* .cert-text {
@@ -588,7 +588,7 @@ article {
 }
 
 .cert-btn:hover {
-  cursor: url(asset/images/icons8-hand-cursor-64.png), default;
+  cursor: url(assets/images/icons8-hand-cursor-64.png), default;
 }
 /*
   =============== 
