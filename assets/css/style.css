@@ -511,6 +511,62 @@ article {
   border: 70px solid;
   border-image: url(../images/polaroid-border.png) 300;
 }
+
+.certificate--inner-img {
+  position: relative;
+}
+
+.certificate--outer-img:hover img {
+  opacity: 0.2;
+  cursor: url(../images/icons8-hand-cursor-64.png), default;
+}
+
+.certificate--outer-img:hover .view-btn {
+  opacity: 1;
+}
+
+.view-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.view-certificate {
+  /* background-color: #739900; */
+  background: transparent;
+  color: #000;
+  display: block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.view-certificate:hover {
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1.05);
+  cursor: url(../images/icons8-hand-cursor-64.png), default;
+}
+
+.cert-btn {
+  border: none;
+  padding: 0.85rem 1.1rem;
+  font-size: 0.925rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+}
+
+.cert-btn:hover {
+  cursor: url(../images/icons8-hand-cursor-64.png), default;
+}
+
 /*
   =============== 
   Animated Scroll
