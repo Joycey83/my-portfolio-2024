@@ -501,9 +501,9 @@ article {
 /* CERTIFICATE SECTION */
 .certificate--container {
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 0 1rem;
   background-color: #9781b3;
-  padding: 2.4rem;
+  padding: 2rem;
   border-radius: 0.25rem;
 }
 
@@ -677,9 +677,8 @@ header {
   height: 150vh;
 }
 
-#certificates,
 #contact {
-  height: 160vh;
+  height: 150vh;
 }
 
 #project {
@@ -774,13 +773,16 @@ footer p {
   }
 
   #about,
-  #certificates,
   #contact {
     height: 125vh;
   }
 
   #skills-tech {
     height: 90vh;
+  }
+
+  #certificates {
+    height: 110vh;
   }
 
   #project {
@@ -899,6 +901,10 @@ footer p {
   }
   .about-center {
     margin: 0 auto;
+  }
+
+  .certificate--container {
+    margin: 0 1rem;
   }
 }
 
