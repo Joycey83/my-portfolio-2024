@@ -9,6 +9,7 @@ Variables
   --clr-dark-1: #99cc00;
   --clr-dark-2: #86b300;
   --clr-dark-3: #739900;
+  --clr-dark-7: #4c6600;
   /* dark shades of main #522d80 color*/
   --clr-dark-4: #422466;
   --clr-dark-5: #391f5a;
@@ -414,6 +415,10 @@ article {
   margin: 1rem;
 }
 
+.content p {
+  font-size: 0.8rem;
+}
+
 .btn--container {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
@@ -618,8 +623,8 @@ header {
 }
 
 footer {
-  background: var(--clr-dark-3);
-  padding: 5rem 1rem;
+  background: var(--clr-dark-7);
+  padding: 3rem 1rem;
 }
 footer p {
   color: var(--clr-black);
@@ -854,6 +859,10 @@ footer p {
   }
 
   #project {
-    height: 245vh;
+    height: 300vh;
+  }
+
+  .about {
+    margin: 2.2rem 0;
   }
 }
