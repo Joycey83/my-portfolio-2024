@@ -170,11 +170,11 @@ p {
   background: var(--clr-black);
 }
 
-.section-center {
+/* .section-center {
   width: 90vw;
   margin: 0 auto;
   max-width: var(--max-width);
-}
+} */
 
 /* Custom classes Mobile first*/
 .home-title {
@@ -278,7 +278,7 @@ article {
 }
 
 .followers-text span {
-  color: yellowgreen;
+  color: var(--clr-main-2);
   font-weight: 700;
 }
 
@@ -567,6 +567,65 @@ article {
   cursor: url(../images/icons8-hand-cursor-64.png), default;
 }
 
+/* CONTACT ME SECTION */
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 1.3rem 1rem;
+  background-color: #222;
+  padding: 0.75rem;
+}
+
+.feedback-input {
+  color: var(--clr-paragraph-2);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid var(--clr-light-1);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid var(--clr-dark-3);
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: var(--ff-secondary);
+  width: 100%;
+  background: var(--clr-light-1);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: var(--clr-paragraph-2);
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: var(--clr-dark-2);
+}
+
 /*
   =============== 
   Animated Scroll
@@ -678,11 +737,11 @@ header {
 }
 
 #contact {
-  height: 150vh;
+  height: 110vh;
 }
 
 #project {
-  height: 255vh;
+  height: 50vh;
 }
 
 #skills-tech {
@@ -755,6 +814,12 @@ footer p {
   Media Queries: Desktop & Laptops
   =================================
   */
+
+@media only screen and (min-width: 1024px) {
+  .project-section {
+    height: 70vh;
+  }
+}
 @media screen and (min-width: 992px) {
   .home-title {
     font-size: 5.4rem;
@@ -809,6 +874,14 @@ footer p {
     column-gap: 2rem;
     row-gap: 2rem;
   }
+
+  .certificate--container {
+    margin: 2rem auto;
+  }
+
+  .form-container {
+    margin: 2rem auto;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -857,6 +930,14 @@ footer p {
   .about-center {
     margin: 0 auto;
   }
+
+  #project {
+    height: 200vh;
+  }
+
+  .form-container {
+    margin: 2rem auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -897,7 +978,7 @@ footer p {
   }
 
   #project {
-    height: 220vh;
+    height: 185vh;
   }
   .about-center {
     margin: 0 auto;
@@ -905,6 +986,10 @@ footer p {
 
   .certificate--container {
     margin: 0 1rem;
+  }
+
+  .form-container {
+    margin: 0 auto;
   }
 }
 
@@ -938,5 +1023,13 @@ footer p {
 
   .about {
     margin: 2.2rem 0;
+  }
+
+  #contact {
+    height: 110vh;
+  }
+
+  .form-container {
+    margin: 1.1rem 1rem;
   }
 }
