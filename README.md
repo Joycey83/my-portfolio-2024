@@ -17,3 +17,4 @@ Happy coding! 💻
 - Incorporated moving Particle animation to my hero image. This was created using HTML5 Canvas.
 - Created an animation scroll for my skills section of my portfolio.
 - Added a JS date object so that the current year will always be displayed.
+- Created a contact me form which I will later on intergrate it with Netlify form so my form can instantly accept submissions.
