@@ -728,7 +728,7 @@ header {
 
 .footer-container {
   background: var(--clr-dark-7);
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 .footer-container p {
   color: var(--clr-black);
@@ -742,12 +742,16 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
 }
 
-.f-social-icons {
+.f-social-icon {
   color: var(--clr-dark-5);
   font-size: 2.2rem;
+}
+
+.f-social-icon:hover {
+  color: var(--accent-2);
 }
 
 .instagram-icon {
