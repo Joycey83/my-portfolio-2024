@@ -762,6 +762,7 @@ header {
 .f-social-icon:hover,
 .cv-icon:hover {
   color: var(--accent-2);
+  cursor: var(--custom-cursor);
 }
 
 .instagram-icon,
