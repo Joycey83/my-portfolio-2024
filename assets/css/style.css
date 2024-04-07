@@ -726,16 +726,28 @@ header {
   margin-top: 1rem;
 }
 
-footer {
+.footer-container {
   background: var(--clr-dark-7);
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
 }
-footer p {
+.footer-container p {
   color: var(--clr-black);
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   margin-bottom: 0;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.f-social-icons {
+  color: var(--clr-dark-5);
+  font-size: 2.2rem;
 }
 
 .instagram-icon {
