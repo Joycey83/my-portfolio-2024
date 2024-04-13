@@ -571,14 +571,15 @@ article {
 
 /* CONTACT ME SECTION */
 .contact-intro {
-  font-size: 1.5rem;
+  font-size: 0.875rem;
   color: var(--clr-paragraph-2);
   text-align: center;
+  padding: 0.3rem 0.8rem;
 }
 
 .contact-icon-container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   gap: 1rem;
@@ -910,19 +911,16 @@ header {
     margin: 2rem auto;
   }
 
+  .contact-intro {
+    font-size: 1.5rem;
+  }
+
   .form-container {
     margin: 2rem auto;
   }
 
   .contact-social--icon i {
     font-size: 2.5rem;
-  }
-
-  .contact-icon-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem 0;
   }
 
   .f-social-icon,
@@ -982,6 +980,11 @@ header {
   .form-container {
     margin: 2rem auto;
   }
+
+  .project-img-container img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -1028,6 +1031,11 @@ header {
   .form-container {
     margin: 0 auto;
   }
+
+  .project-img-container img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1052,5 +1060,14 @@ header {
 
   .form-container {
     margin: 1.1rem 1rem;
+  }
+
+  .contact-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
   }
 }
