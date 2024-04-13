@@ -619,6 +619,10 @@ form {
   margin: 50px auto;
 }
 
+label {
+  color: var(--clr-paragraph-1);
+}
+
 .form-container {
   max-width: 500px;
   margin: 1.3rem 1rem;
