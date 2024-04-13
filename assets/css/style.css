@@ -394,20 +394,13 @@ article {
 }
 
 /* Project Section */
-.about-img {
-  margin-bottom: 2rem;
-}
-.about-img img {
-  border-radius: var(--radius);
-  object-fit: cover;
-  /* height: 20rem; */
-}
+
 .project-center {
   width: 90vw;
   margin: 0 0.5rem;
 }
 
-.about {
+.about-project {
   background: #eeeaf2;
   border-radius: var(--radius);
   display: grid;
