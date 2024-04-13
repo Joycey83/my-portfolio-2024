@@ -578,13 +578,15 @@ article {
 
 .contact-icon-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   gap: 1rem;
   padding: 1rem 0;
 }
 
 a.contact-social--icon {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--accent-2);
 }
 
@@ -600,7 +602,7 @@ a.contact-social--icon:hover {
 }
 
 .contact-social--icon i {
-  font-size: 2.5rem;
+  font-size: 1.3rem;
 }
 
 form {
@@ -910,6 +912,17 @@ header {
 
   .form-container {
     margin: 2rem auto;
+  }
+
+  .contact-social--icon i {
+    font-size: 2.5rem;
+  }
+
+  .contact-icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
   }
 
   .f-social-icon,
