@@ -740,7 +740,7 @@ nav {
 header {
   min-height: 100vh;
   background: linear-gradient(#000000eb, #050008d1),
-    url(../images/hero-bg-img.jpg) center/cover no-repeat;
+    url(../images/hero-bg-img.png) center/cover no-repeat;
 }
 .banner {
   position: relative;
