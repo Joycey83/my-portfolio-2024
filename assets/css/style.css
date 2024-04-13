@@ -590,6 +590,7 @@ a.contact-social--icon {
 
 a.contact-social--icon:hover {
   color: var(--accent-1);
+  cursor: var(--custom-cursor);
 }
 
 .contact-social--icon {
