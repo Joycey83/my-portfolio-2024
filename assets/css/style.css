@@ -449,6 +449,10 @@ article {
   letter-spacing: var(--spacing);
 }
 
+.tab-btn:hover {
+  cursor: var(--custom-cursor);
+}
+
 .about-content {
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
