@@ -77,6 +77,8 @@ body {
 }
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -414,6 +416,11 @@ article {
   border-radius: var(--radius);
   width: 15.2rem;
   height: 10rem;
+}
+
+.feature-container li {
+  margin: 0;
+  padding: 0;
 }
 
 .content p {
