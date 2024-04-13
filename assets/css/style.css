@@ -408,6 +408,12 @@ article {
   margin: 1rem;
 }
 
+.project-img-container img {
+  border-radius: var(--radius);
+  width: 15.2rem;
+  height: 10rem;
+}
+
 .content p {
   font-size: 0.8rem;
 }
@@ -873,6 +879,12 @@ header {
 
   .project-text {
     font-size: 1.3rem;
+  }
+
+  .project-img-container img {
+    width: 32rem;
+    height: 20rem;
+    border-radius: var(--radius);
   }
 
   .about-info,
