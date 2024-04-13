@@ -790,7 +790,7 @@ header {
 .f-social-icon,
 .cv-icon {
   color: var(--clr-dark-5);
-  font-size: 2.2rem;
+  font-size: 1.4rem;
 }
 
 .f-social-icon:hover,
@@ -910,6 +910,12 @@ header {
 
   .form-container {
     margin: 2rem auto;
+  }
+
+  .f-social-icon,
+  .cv-icon {
+    color: var(--clr-dark-5);
+    font-size: 2rem;
   }
 }
 
