@@ -216,7 +216,8 @@ p {
   ================== */
 
 .about-section,
-.project-section {
+.project-section,
+.contact-section {
   padding: 0.25rem 0;
   background-color: #311b4d7c;
 }
