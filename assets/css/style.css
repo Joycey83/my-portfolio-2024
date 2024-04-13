@@ -408,11 +408,11 @@ article {
   margin: 1rem;
 }
 
-/* .project-img-container img {
+.project-img-container img {
   border-radius: var(--radius);
   width: 15.2rem;
   height: 10rem;
-} */
+}
 
 .content p {
   font-size: 0.8rem;
@@ -881,11 +881,11 @@ header {
     font-size: 1.3rem;
   }
 
-  /* .project-img-container img {
+  .project-img-container img {
     width: 32rem;
     height: 20rem;
     border-radius: var(--radius);
-  } */
+  }
 
   .about-info,
   .skills-text {

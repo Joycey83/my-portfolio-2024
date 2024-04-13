@@ -1,5 +1,5 @@
 // Get all articles
-const articles = document.querySelectorAll(".about");
+const articles = document.querySelectorAll(".about-project");
 
 // Loop through each article
 articles.forEach(function (article) {
