@@ -570,6 +570,11 @@ article {
 }
 
 /* CONTACT ME SECTION */
+.contact-intro {
+  font-size: 1.5rem;
+  color: var(--clr-paragraph-2);
+  text-align: center;
+}
 form {
   max-width: 420px;
   margin: 50px auto;
