@@ -265,7 +265,7 @@ article {
 }
 
 .follower-imgs img {
-  height: 3.8rem;
+  height: 3.1rem;
   border-radius: 50%;
   margin-left: -1.6rem;
   border: 3px solid #0acb27;
@@ -273,13 +273,15 @@ article {
 
 .followers-text {
   color: var(--clr-paragraph-1);
-  font-size: 1.1rem;
+  font-size: 1rem;
+
   font-weight: 600;
 }
 
 .followers-text span {
   color: var(--clr-main-2);
   font-weight: 700;
+  font-size: 0.8rem;
 }
 
 /* ================
@@ -919,6 +921,14 @@ header {
     margin: 2rem auto;
   }
 
+  .follower-imgs img {
+    height: 3.5rem;
+  }
+
+  .followers-text span {
+    font-size: 1.1rem;
+  }
+
   .contact-social--icon i {
     font-size: 2.5rem;
   }
@@ -1030,6 +1040,14 @@ header {
 
   .form-container {
     margin: 0 auto;
+  }
+
+  .follower-imgs img {
+    height: 3.5rem;
+  }
+
+  .followers-text span {
+    font-size: 1.1rem;
   }
 
   .project-img-container img {
