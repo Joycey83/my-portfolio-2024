@@ -623,6 +623,15 @@ label {
   color: var(--clr-paragraph-1);
 }
 
+input::placeholder {
+  color: rgba(128, 128, 128, 0.298);
+  font-style: italic;
+}
+textarea::placeholder {
+  color: rgba(128, 128, 128, 0.298);
+  font-style: italic;
+}
+
 .form-container {
   max-width: 500px;
   margin: 1.3rem 1rem;
