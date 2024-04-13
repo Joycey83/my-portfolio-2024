@@ -705,23 +705,25 @@
         message and let’s make something awesome together!
       </p>
       <div class="form-container">
-        <form>
+        <form name="contact-me" netlify>
           <input
-            name="name"
+            name="full-name"
             type="text"
             class="feedback-input"
             placeholder="Full name"
             autocomplete="given-name"
+            required
           />
           <input
-            name="email"
+            name="email-address"
             type="text"
             class="feedback-input"
             placeholder="Email"
             autocomplete="off"
+            required
           />
           <textarea
-            name="text"
+            name="message"
             class="feedback-input"
             placeholder="Message"
           ></textarea>
