@@ -358,6 +358,24 @@ article {
 
 .scroller[data-animated="true"] {
   overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+}
+
+/* .scroller[data-animated="true"] {
+  overflow: hidden;
   -webkit-mask: linear-gradient(
     90deg,
     transparent,
@@ -366,7 +384,7 @@ article {
     transparent
   );
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-}
+} */
 
 .scroller[data-animated="true"] .scroller__inner {
   width: max-content;
