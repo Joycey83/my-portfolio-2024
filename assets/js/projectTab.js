@@ -4,7 +4,7 @@ const articles = document.querySelectorAll(".about-project");
 // Loop through each article
 articles.forEach(function (article) {
   // Get all buttons within the current article
-  var tabBtns = article.querySelectorAll(".tab-btn");
+  let tabBtns = article.querySelectorAll(".tab-btn");
 
   // Loop through each button
   tabBtns.forEach(function (btn) {
