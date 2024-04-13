@@ -231,6 +231,7 @@ p {
   max-width: 100%;
   height: auto;
   object-fit: cover;
+  border: 3px solid var(--accent-1);
 }
 
 article {
